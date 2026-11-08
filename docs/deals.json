@@ -249,7 +249,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/veste-parkside-homme-gris-ou-noir-tailles-s-au-xxl-3448947",
   "source": "Dealabs",
-  "titre": "123° - Veste Parkside homme - Gris ou noir, tailles S au XXL",
+  "titre": "130° - Veste Parkside homme - Gris ou noir, tailles S au XXL",
   "url": "https://www.dealabs.com/bons-plans/veste-parkside-homme-gris-ou-noir-tailles-s-au-xxl-3448947",
   "prix": 11.99,
   "prix_txt": "11,99€",
@@ -287,7 +287,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/fila-camalfi-v2-femme-3448595",
   "source": "Dealabs",
-  "titre": "133° - Baskets femme Fila Camalfi V2 - Du 36 au 43",
+  "titre": "136° - Baskets femme Fila Camalfi V2 - Du 36 au 43",
   "url": "https://www.dealabs.com/bons-plans/fila-camalfi-v2-femme-3448595",
   "prix": 20.0,
   "prix_txt": "20€",
@@ -1291,6 +1291,25 @@
   "score": 0
  },
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/25eur-offert-en-bon-dachat-des-60eur-dachats-3449379",
+  "source": "Dealabs",
+  "titre": "25€ offert en bon d’achat dès 60€ d'achats",
+  "url": "https://www.dealabs.com/bons-plans/25eur-offert-en-bon-dachat-des-60eur-dachats-3449379",
+  "prix": null,
+  "prix_txt": "",
+  "etat": "Neuf",
+  "vendeur": "Bonobo Jeans",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "Bonobo Jeans L'offre de Bonobo est de retour ! Bénéficiez d'un bon d'achat de 25€ dès 60€ dépensés, en ligne ou en magasin. L'offre est valable dès ce jour, jus",
+  "ajoute": "2026-11-08T23:55:57+00:00",
+  "rang": 5,
+  "categorie": "Autres",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/chaussure-de-moto-fastway-city-uni-221-du-36-au-47-3444834",
   "source": "Dealabs",
   "titre": "113° - Chaussure de moto Fastway City Uni 221 du 36 au 47",
@@ -1312,7 +1331,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/esp-ltd-ec-01-ft-black-3449369",
   "source": "Dealabs",
-  "titre": "ESP LTD EC-01 FT Black",
+  "titre": "ESP LTD EC-01 FT - Black",
   "url": "https://www.dealabs.com/bons-plans/esp-ltd-ec-01-ft-black-3449369",
   "prix": 699.0,
   "prix_txt": "699€",
