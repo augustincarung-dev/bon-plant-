@@ -90,6 +90,7 @@ def fetch_dealabs(cfg):
                 "note_vendeur": None,
                 "image": "",
                 "alerte": match,
+                "remise": 0,
                 "info": desc[:160],
             })
     log(f"[Dealabs] {len(out)} offres")
@@ -167,6 +168,7 @@ def fetch_ebay(cfg):
                 continue  # vendeur peu fiable : on écarte
             bonne_affaire = bool(mediane and p <= mediane * seuil and (nb_avis or 0) >= 20)
             info = f"Médiane des annonces : {mediane:.0f} €" if mediane else ""
+            remise = round((1 - p / mediane) * 100) if mediane and p < mediane else 0
             out.append({
                 "id": "ebay:" + (i.get("itemId") or i.get("itemWebUrl", "")),
                 "source": "eBay",
@@ -179,6 +181,7 @@ def fetch_ebay(cfg):
                 "note_vendeur": note,
                 "image": (i.get("image") or {}).get("imageUrl", ""),
                 "alerte": bonne_affaire,
+                "remise": remise,
                 "info": info,
                 "recherche": rech["q"],
             })
@@ -187,7 +190,48 @@ def fetch_ebay(cfg):
 
 
 # --------------------------------------------------------------------------- Historique + page
-def merge(history, nouveaux, retention_jours, max_offres=1000):
+# Catégories classées de la plus intéressante à la moins intéressante.
+# L'ordre de cette liste = l'ordre d'affichage sur la page. Modifiable via "categories" dans config.json.
+DEFAULT_CATEGORIES = [
+    {"nom": "Vêtements", "mots": [
+        "veste", "manteau", "doudoune", "blouson", "parka", "pull", "sweat", "hoodie", "gilet", "pantalon",
+        "jean", "chemise", "t-shirt", "tee-shirt", "polo", "robe", "jupe", "short", "survêtement", "jogging",
+        "carhartt", "levi", "ralph lauren", "north face", "lacoste", "patagonia", "stone island", "dickies"]},
+    {"nom": "Chaussures", "mots": [
+        "sneakers", "baskets", "basket", "chaussures", "bottes", "boots", "mocassins", "new balance", "nike air",
+        "air force", "air max", "adidas", "converse", "vans", "asics", "puma", "jordan", "salomon", "birkenstock"]},
+    {"nom": "Sacs et accessoires", "mots": [
+        "sac", "sacoche", "ceinture", "casquette", "bonnet", "écharpe", "gants", "montre", "lunettes",
+        "portefeuille", "bijou", "collier", "bracelet"]},
+    {"nom": "High-tech", "mots": [
+        "iphone", "samsung", "xiaomi", "ssd", "pc ", "ordinateur", "écouteurs", "airpods", "casque", "tv",
+        "téléviseur", "console", "switch", "ps5", "xbox", "tablette", "ipad", "macbook", "enceinte", "montre connectée"]},
+    {"nom": "Maison", "mots": [
+        "aspirateur", "cafetière", "friteuse", "matelas", "lessive", "tefal", "dyson", "robot", "cuisine",
+        "literie", "couette", "lampe", "meuble", "outil", "perceuse"]},
+]
+
+
+def categoriser(titre, cats):
+    t = (titre or "").lower()
+    for rang, c in enumerate(cats):
+        for m in c.get("mots", []):
+            if re.search(r"(?<!\w)" + re.escape(m.lower()), t):
+                return rang, c["nom"]
+    return len(cats), "Autres"
+
+
+def score_interet(d):
+    """Plus c'est haut, plus c'est intéressant : alerte (50) + remise vs médiane (max 50) + vendeur très bien noté (5)."""
+    s = 50 if d.get("alerte") else 0
+    s += min(int(d.get("remise") or 0), 50)
+    if (d.get("note_vendeur") or 0) >= 99:
+        s += 5
+    return s
+
+
+def merge(history, nouveaux, retention_jours, max_offres=1000, cats=None):
+    cats = cats or DEFAULT_CATEGORIES
     maintenant = now_iso()
     par_id = {d["id"]: d for d in history}
     for d in nouveaux:
@@ -205,11 +249,15 @@ def merge(history, nouveaux, retention_jours, max_offres=1000):
                 gardes.append(d)
         except Exception:
             gardes.append(d)
-    gardes.sort(key=lambda d: (not d.get("alerte"), d["ajoute"]), reverse=False)
-    # alertes d'abord, puis les plus récents
-    alertes = sorted([d for d in gardes if d.get("alerte")], key=lambda d: d["ajoute"], reverse=True)
-    autres = sorted([d for d in gardes if not d.get("alerte")], key=lambda d: d["ajoute"], reverse=True)
-    return (alertes + autres)[:max_offres]
+    # On garde les plus récentes si on dépasse la limite...
+    gardes.sort(key=lambda d: d["ajoute"], reverse=True)
+    gardes = gardes[:max_offres]
+    for d in gardes:
+        d["rang"], d["categorie"] = categoriser(d.get("titre"), cats)
+        d["score"] = score_interet(d)
+    # ...puis tri : catégorie (la plus intéressante d'abord), puis score ; à égalité, la plus récente d'abord.
+    gardes.sort(key=lambda d: (d["rang"], -d["score"]))
+    return gardes
 
 
 PAGE = """<!doctype html>
@@ -241,6 +289,7 @@ main{display:grid;gap:12px;padding:8px 16px 40px;max-width:960px;margin:0 auto}
 .tag{display:inline-block;font-size:.72rem;padding:1px 8px;border-radius:999px;border:1px solid var(--line);margin-right:4px;color:var(--mut)}
 .tag.ok{color:var(--ok);border-color:var(--ok)}
 .empty{color:var(--mut);text-align:center;padding:40px 0}
+.cat{font-size:1.05rem;margin:16px 0 0;padding-top:8px;border-top:2px solid var(--acc)}
 .more{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--txt);border-radius:10px;padding:12px}
 .links{max-width:960px;margin:0 auto;padding:4px 16px 8px}
 .links h2{font-size:1rem;margin:8px 0}
@@ -257,6 +306,7 @@ main{display:grid;gap:12px;padding:8px 16px 40px;max-width:960px;margin:0 auto}
   <button data-f="hot">Bonnes affaires</button>
   <button data-f="neuf">Neuf</button>
   <button data-f="occ">Occasion</button>
+  <button id="mode" type="button">Tri : intérêt</button>
   <input id="q" type="search" placeholder="Rechercher…">
 </div>
 <section class="links" id="links"></section>
@@ -273,7 +323,7 @@ const ago = iso => {
   return "il y a " + Math.round(s / 86400) + " j";
 };
 const isNew = d => /neuf|new/i.test(d.etat || "");
-let filtre = "all", terme = "", nb = 100;
+let filtre = "all", terme = "", nb = 100, mode = "interet";
 function render() {
   const list = document.getElementById("list");
   list.replaceChildren();
@@ -281,8 +331,16 @@ function render() {
     (filtre === "all" || (filtre === "hot" && d.alerte) || (filtre === "neuf" && isNew(d)) || (filtre === "occ" && !isNew(d))) &&
     (!terme || (d.titre + " " + d.vendeur).toLowerCase().includes(terme)));
   if (!rows.length) { list.append(el("div", "empty", "Rien pour l'instant.")); return; }
+  if (mode === "recent") rows.sort((x, y) => (y.ajoute > x.ajoute ? 1 : -1));
+  const counts = {};
+  for (const d of rows) counts[d.categorie] = (counts[d.categorie] || 0) + 1;
+  let derniere = null;
   for (const d of rows.slice(0, nb)) {
-    const ok =/^https?:\\/\\//.test(d.url);
+    if (mode === "interet" && d.categorie !== derniere) {
+      derniere = d.categorie;
+      list.append(el("h2", "cat", (d.categorie || "Autres") + " · " + counts[d.categorie]));
+    }
+    const ok = /^https?:\\/\\//.test(d.url);
     const a = el("a", "card" + (d.alerte ? " hot" : ""));
     if (ok) { a.href = d.url; a.target = "_blank"; a.rel = "noopener noreferrer"; }
     const img = el("div", "img");
@@ -292,6 +350,7 @@ function render() {
     b.append(el("div", "p", d.prix_txt || "Voir l'offre"));
     const tags = el("div", "m");
     if (d.alerte) tags.append(el("span", "tag ok", d.source === "eBay" ? "Prix bas" : "Correspond à tes mots-clés"));
+    if (d.remise >= 10) tags.append(el("span", "tag ok", "-" + d.remise + " % vs médiane"));
     tags.append(el("span", "tag", d.source));
     tags.append(el("span", "tag", d.etat || "?"));
     if (d.note_vendeur != null) tags.append(el("span", "tag", "vendeur " + d.note_vendeur + " %"));
@@ -331,6 +390,11 @@ document.getElementById("bar").addEventListener("click", e => {
   const f = e.target.dataset && e.target.dataset.f; if (!f) return;
   filtre = f; nb = 100;
   document.querySelectorAll("#bar button").forEach(x => x.classList.toggle("on", x === e.target));
+  render();
+});
+document.getElementById("mode").addEventListener("click", e => {
+  mode = mode === "interet" ? "recent" : "interet"; nb = 100;
+  e.target.textContent = mode === "interet" ? "Tri : intérêt" : "Tri : récent";
   render();
 });
 document.getElementById("q").addEventListener("input", e => { terme = e.target.value.toLowerCase(); nb = 100; render(); });
@@ -380,13 +444,22 @@ def demo():
     return [
         {"id": "d1", "source": "eBay", "titre": "Veste Carhartt Detroit taille M, très bon état", "url": "https://www.ebay.fr/",
          "prix": 42.0, "prix_txt": "42.00 €", "etat": "Occasion - Très bon état", "vendeur": "vintage_marie (812 avis)",
-         "note_vendeur": 99.4, "image": "", "alerte": True, "info": "Médiane des annonces : 85 €", "ajoute": t},
+         "note_vendeur": 99.4, "image": "", "alerte": True, "remise": 51, "info": "Médiane des annonces : 85 €", "ajoute": t},
         {"id": "d2", "source": "Dealabs", "titre": "Sneakers New Balance 530 à -40 %", "url": "https://www.dealabs.com/",
          "prix": 59.0, "prix_txt": "59,00€", "etat": "Neuf", "vendeur": "Zalando", "note_vendeur": None,
          "image": "", "alerte": True, "info": "", "ajoute": t},
         {"id": "d3", "source": "eBay", "titre": "Pull Ralph Lauren col rond bleu marine M", "url": "https://www.ebay.fr/",
          "prix": 29.0, "prix_txt": "29.00 €", "etat": "Occasion", "vendeur": "friperie_lyon (230 avis)",
-         "note_vendeur": 98.2, "image": "", "alerte": False, "info": "Médiane des annonces : 38 €", "ajoute": t},
+         "note_vendeur": 98.2, "image": "", "alerte": False, "remise": 24, "info": "Médiane des annonces : 38 €", "ajoute": t},
+        {"id": "d4", "source": "Dealabs", "titre": "Casque Sony WH-1000XM5 à prix cassé", "url": "https://www.dealabs.com/",
+         "prix": 229.0, "prix_txt": "229,00€", "etat": "Neuf", "vendeur": "Amazon", "note_vendeur": None,
+         "image": "", "alerte": False, "remise": 0, "info": "", "ajoute": t},
+        {"id": "d5", "source": "eBay", "titre": "Sac à dos Eastpak bleu, comme neuf", "url": "https://www.ebay.fr/",
+         "prix": 15.0, "prix_txt": "15.00 €", "etat": "Occasion", "vendeur": "marie75 (95 avis)",
+         "note_vendeur": 99.0, "image": "", "alerte": True, "remise": 40, "info": "Médiane des annonces : 25 €", "ajoute": t},
+        {"id": "d6", "source": "Dealabs", "titre": "Aspirateur robot Roborock Q Revo", "url": "https://www.dealabs.com/",
+         "prix": 349.0, "prix_txt": "349,00€", "etat": "Neuf", "vendeur": "Boulanger", "note_vendeur": None,
+         "image": "", "alerte": False, "remise": 0, "info": "", "ajoute": t},
     ]
 
 
@@ -394,8 +467,9 @@ def main():
     DOCS.mkdir(exist_ok=True)
     cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
     liens = build_links(cfg.get("mes_recherches", []))
+    cats = cfg.get("categories") or DEFAULT_CATEGORIES
     if "--demo" in sys.argv:
-        write_page(demo(), liens)
+        write_page(merge([], demo(), 7, 1000, cats), liens)
         log("Page de démo écrite dans docs/index.html")
         return
     nouveaux = fetch_dealabs(cfg.get("dealabs", {})) + fetch_ebay(cfg.get("ebay", {}))
@@ -403,7 +477,7 @@ def main():
         history = json.loads((DOCS / "deals.json").read_text(encoding="utf-8"))
     except Exception:
         history = []
-    deals = merge(history, nouveaux, int(cfg.get("retention_jours", 7)), int(cfg.get("max_offres", 1000)))
+    deals = merge(history, nouveaux, int(cfg.get("retention_jours", 7)), int(cfg.get("max_offres", 1000)), cats)
     write_page(deals, liens)
     log(f"Terminé : {len(deals)} offres sur la page")
 
