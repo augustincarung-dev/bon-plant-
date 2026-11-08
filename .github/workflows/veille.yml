@@ -1,0 +1,36 @@
+name: Veille bons plans
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Chercher les bons plans
+        run: python veille.py
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+
+      - name: Publier la page
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "veille-bot@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || (git commit -m "maj $(date -u +%FT%TZ)" && git push)
