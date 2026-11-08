@@ -1,0 +1,38 @@
+{
+  "retention_jours": 3,
+  "max_offres": 1000,
+
+  "mes_recherches": [
+    { "nom": "Veste Carhartt", "q": "veste carhartt", "prix_max": 70, "taille": "M" },
+    { "nom": "Sneakers New Balance 530", "q": "new balance 530", "prix_max": 60, "taille": "42" },
+    { "nom": "Pull Ralph Lauren", "q": "pull ralph lauren", "prix_max": 35, "taille": "M" },
+    { "nom": "Jean Levi's 501", "q": "jean levis 501", "prix_max": 30, "taille": "W32" },
+    { "nom": "Doudoune", "q": "doudoune north face", "prix_max": 90, "taille": "M" }
+  ],
+
+  "dealabs": {
+    "actif": true,
+    "flux": [
+      "https://www.dealabs.com/rss/hot",
+      "https://www.dealabs.com/rss/nouveaux"
+    ],
+    "filtrer_par_mots_cles": false,
+    "mots_cles": ["nike", "adidas", "new balance", "carhartt", "levi", "ralph lauren", "north face", "veste", "sneakers", "pull", "jean", "doudoune"]
+  },
+
+  "ebay": {
+    "actif": true,
+    "seuil_bonne_affaire": 0.65,
+    "min_note_vendeur": 97,
+    "recherches": [
+      { "q": "veste carhartt", "prix_max": 70, "etat": "occasion" },
+      { "q": "new balance 530", "prix_max": 60, "etat": "tous" },
+      { "q": "pull ralph lauren", "prix_max": 35, "etat": "occasion" },
+      { "q": "jean levis 501", "prix_max": 30, "etat": "occasion" },
+      { "q": "doudoune north face", "prix_max": 90, "etat": "occasion" },
+      { "q": "sweat nike", "prix_max": 25, "etat": "occasion" },
+      { "q": "veste adidas", "prix_max": 30, "etat": "occasion" },
+      { "q": "baskets nike air force 1", "prix_max": 60, "etat": "tous" }
+    ]
+  }
+}
