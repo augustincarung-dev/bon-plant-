@@ -2,12 +2,46 @@
   "retention_jours": 3,
   "max_offres": 1000,
 
+  "mots_exclus": [
+    "réplique", "replica", "copie", "fake", "contrefaçon", "inspiré", "inspired",
+    "pour pièces", "défectueux", "cassé", "tache", "troué", "déchiré"
+  ],
+
+  "ntfy": { "actif": true, "score_min": 50, "max_par_passage": 5 },
+
   "mes_recherches": [
-    { "nom": "Veste Carhartt", "q": "veste carhartt", "prix_max": 70, "taille": "M" },
-    { "nom": "Sneakers New Balance 530", "q": "new balance 530", "prix_max": 60, "taille": "42" },
-    { "nom": "Pull Ralph Lauren", "q": "pull ralph lauren", "prix_max": 35, "taille": "M" },
-    { "nom": "Jean Levi's 501", "q": "jean levis 501", "prix_max": 30, "taille": "W32" },
-    { "nom": "Doudoune", "q": "doudoune north face", "prix_max": 90, "taille": "M" }
+    { "categorie": "Vêtements", "nom": "Veste Carhartt", "q": "veste carhartt", "prix_max": 70, "taille": "M" },
+    { "categorie": "Vêtements", "nom": "Doudoune The North Face", "q": "doudoune north face", "prix_max": 90, "taille": "M" },
+    { "categorie": "Vêtements", "nom": "Pull Ralph Lauren", "q": "pull ralph lauren", "prix_max": 35, "taille": "M" },
+    { "categorie": "Vêtements", "nom": "Polo Lacoste", "q": "polo lacoste", "prix_max": 30, "taille": "M" },
+    { "categorie": "Vêtements", "nom": "Sweat Nike", "q": "sweat nike", "prix_max": 25, "taille": "M" },
+    { "categorie": "Vêtements", "nom": "Sweat Champion", "q": "sweat champion", "prix_max": 25, "taille": "M" },
+    { "categorie": "Vêtements", "nom": "Jean Levi's 501", "q": "jean levis 501", "prix_max": 30, "taille": "W32" },
+    { "categorie": "Vêtements", "nom": "Veste en jean Levi's", "q": "veste jean levis", "prix_max": 40, "taille": "M" },
+    { "categorie": "Vêtements", "nom": "Veste Adidas", "q": "veste adidas", "prix_max": 30, "taille": "M" },
+    { "categorie": "Vêtements", "nom": "Survêtement Nike", "q": "survêtement nike", "prix_max": 35, "taille": "M" },
+    { "categorie": "Vêtements", "nom": "Pantalon Dickies", "q": "pantalon dickies", "prix_max": 30, "taille": "M" },
+    { "categorie": "Vêtements", "nom": "Veste Patagonia", "q": "veste patagonia", "prix_max": 70, "taille": "M" },
+    { "categorie": "Vêtements", "nom": "Chemise Ralph Lauren", "q": "chemise ralph lauren", "prix_max": 25, "taille": "M" },
+    { "categorie": "Vêtements", "nom": "Blouson cuir", "q": "blouson cuir homme", "prix_max": 60, "taille": "M" },
+
+    { "categorie": "Chaussures", "nom": "New Balance 530", "q": "new balance 530", "prix_max": 60, "taille": "42" },
+    { "categorie": "Chaussures", "nom": "Nike Air Force 1", "q": "nike air force 1", "prix_max": 60, "taille": "42" },
+    { "categorie": "Chaussures", "nom": "Adidas Samba", "q": "adidas samba", "prix_max": 70, "taille": "42" },
+    { "categorie": "Chaussures", "nom": "Nike Air Max 90", "q": "nike air max 90", "prix_max": 70, "taille": "42" },
+    { "categorie": "Chaussures", "nom": "Asics Gel", "q": "asics gel", "prix_max": 60, "taille": "42" },
+    { "categorie": "Chaussures", "nom": "Converse Chuck Taylor", "q": "converse chuck taylor", "prix_max": 30, "taille": "42" },
+    { "categorie": "Chaussures", "nom": "Vans Old Skool", "q": "vans old skool", "prix_max": 30, "taille": "42" },
+    { "categorie": "Chaussures", "nom": "Salomon XT-6", "q": "salomon xt-6", "prix_max": 90, "taille": "42" },
+    { "categorie": "Chaussures", "nom": "Birkenstock", "q": "birkenstock", "prix_max": 40, "taille": "42" },
+    { "categorie": "Chaussures", "nom": "Dr. Martens", "q": "dr martens", "prix_max": 60, "taille": "42" },
+
+    { "categorie": "Sacs et accessoires", "nom": "Sac Eastpak", "q": "sac eastpak", "prix_max": 20 },
+    { "categorie": "Sacs et accessoires", "nom": "Casquette Carhartt", "q": "casquette carhartt", "prix_max": 15 },
+    { "categorie": "Sacs et accessoires", "nom": "Sac Longchamp Pliage", "q": "longchamp pliage", "prix_max": 50 },
+    { "categorie": "Sacs et accessoires", "nom": "Montre Casio", "q": "montre casio", "prix_max": 30 },
+    { "categorie": "Sacs et accessoires", "nom": "Lunettes Ray-Ban", "q": "lunettes ray-ban", "prix_max": 50 },
+    { "categorie": "Sacs et accessoires", "nom": "Ceinture cuir", "q": "ceinture cuir", "prix_max": 15 }
   ],
 
   "dealabs": {
@@ -16,23 +50,19 @@
       "https://www.dealabs.com/rss/hot",
       "https://www.dealabs.com/rss/nouveaux"
     ],
-    "filtrer_par_mots_cles": false,
-    "mots_cles": ["nike", "adidas", "new balance", "carhartt", "levi", "ralph lauren", "north face", "veste", "sneakers", "pull", "jean", "doudoune"]
+    "filtrer_par_mots_cles": true,
+    "mots_cles": [
+      "nike", "adidas", "new balance", "carhartt", "levi", "ralph lauren", "north face", "lacoste",
+      "patagonia", "asics", "converse", "vans", "salomon", "birkenstock", "dr martens", "champion",
+      "dickies", "veste", "doudoune", "sneakers", "baskets", "pull", "sweat", "jean", "manteau", "parka"
+    ]
   },
 
   "ebay": {
     "actif": true,
     "seuil_bonne_affaire": 0.65,
+    "seuil_suspect_pct": 70,
     "min_note_vendeur": 97,
-    "recherches": [
-      { "q": "veste carhartt", "prix_max": 70, "etat": "occasion" },
-      { "q": "new balance 530", "prix_max": 60, "etat": "tous" },
-      { "q": "pull ralph lauren", "prix_max": 35, "etat": "occasion" },
-      { "q": "jean levis 501", "prix_max": 30, "etat": "occasion" },
-      { "q": "doudoune north face", "prix_max": 90, "etat": "occasion" },
-      { "q": "sweat nike", "prix_max": 25, "etat": "occasion" },
-      { "q": "veste adidas", "prix_max": 30, "etat": "occasion" },
-      { "q": "baskets nike air force 1", "prix_max": 60, "etat": "tous" }
-    ]
+    "max_recherches_par_passage": 10
   }
 }
