@@ -130,7 +130,140 @@ def choisir_recherches(recherches, par_passage, maintenant=None):
     return [recherches[(debut + k) % len(recherches)] for k in range(par_passage)]
 
 
-def fetch_ebay(cfg):
+# --- Score de rentabilité -------------------------------------------------------------------
+# Coefficients de 0 à 1 par marque : "revente" = à quel point elle garde sa valeur d'occasion,
+# "reputation" = qualité / popularité. Ce sont des ESTIMATIONS subjectives de départ : corrige-les
+# ou ajoute tes marques via "marques" dans config.json.
+DEFAULT_MARQUES = {
+    "patagonia": {"revente": 0.90, "reputation": 0.90},
+    "stone island": {"revente": 0.90, "reputation": 0.85},
+    "arc'teryx": {"revente": 0.95, "reputation": 0.95},
+    "carhartt": {"revente": 0.85, "reputation": 0.85},
+    "north face": {"revente": 0.80, "reputation": 0.85},
+    "salomon": {"revente": 0.80, "reputation": 0.80},
+    "barbour": {"revente": 0.75, "reputation": 0.80},
+    "jordan": {"revente": 0.80, "reputation": 0.80},
+    "new balance": {"revente": 0.70, "reputation": 0.80},
+    "levi": {"revente": 0.70, "reputation": 0.80},
+    "nike": {"revente": 0.65, "reputation": 0.80},
+    "dr martens": {"revente": 0.65, "reputation": 0.80},
+    "longchamp": {"revente": 0.65, "reputation": 0.75},
+    "adidas": {"revente": 0.60, "reputation": 0.75},
+    "asics": {"revente": 0.60, "reputation": 0.75},
+    "ralph lauren": {"revente": 0.60, "reputation": 0.75},
+    "birkenstock": {"revente": 0.60, "reputation": 0.75},
+    "ray-ban": {"revente": 0.60, "reputation": 0.80},
+    "lacoste": {"revente": 0.55, "reputation": 0.75},
+    "champion": {"revente": 0.50, "reputation": 0.65},
+    "dickies": {"revente": 0.50, "reputation": 0.70},
+    "casio": {"revente": 0.50, "reputation": 0.70},
+    "converse": {"revente": 0.45, "reputation": 0.70},
+    "vans": {"revente": 0.45, "reputation": 0.70},
+    "eastpak": {"revente": 0.40, "reputation": 0.60},
+}
+MARQUE_INCONNUE = {"revente": 0.40, "reputation": 0.50}
+
+
+def trouver_marque(titre, marques):
+    t = (titre or "").lower()
+    for nom in sorted(marques, key=len, reverse=True):  # « north face » avant « north »
+        if motif_debut_de_mot(nom).search(t):
+            return nom, marques[nom]
+    return None, MARQUE_INCONNUE
+
+
+def coef_etat(texte):
+    """État annoncé -> coefficient 0..1 (d'après le texte de la condition eBay)."""
+    t = (texte or "").lower()
+    if re.search(r"pi[eè]ces|d[eé]fectueux", t):
+        return 0.2
+    if re.search(r"acceptable|correct", t):
+        return 0.55
+    if re.search(r"tr[eè]s bon|comme neuf|excellent|parfait", t):
+        return 0.9
+    if re.search(r"\bbon\b", t):
+        return 0.75
+    if "neuf" in t:
+        return 1.0
+    return 0.7  # « Occasion » sans précision
+
+
+def clamp01(x):
+    return max(0.0, min(1.0, x))
+
+
+def calcul_rentabilite(prix, med_occ, ref_neuf, marque, etat, frais_pct=5.0,
+                       percentile=None, suspect=False, peu_avis=False):
+    """Score 0-100 : plus il est haut, plus l'achat est intéressant (dont en revente).
+
+    Poids : écart vs médiane des annonces (35), marge de revente estimée (25), marque (10),
+    état (10), moins cher que X % des annonces (10), économie vs neuf (10, si on connaît un prix neuf).
+    La revente est estimée : médiane × décote de marque × état, moins les frais ; ce n'est PAS un prix garanti."""
+    if not prix or not med_occ:
+        return None
+    revente = med_occ * (0.85 + 0.15 * marque["revente"]) * (0.9 + 0.1 * etat)
+    marge = revente * (1 - frais_pct / 100.0) - prix
+    comps = [
+        (35, clamp01((1 - prix / med_occ) / 0.5)),
+        (25, clamp01((marge / prix) / 0.6)),
+        (10, clamp01(marque["revente"] * 0.6 + marque["reputation"] * 0.4)),
+        (10, etat),
+    ]
+    if percentile is not None:
+        comps.append((10, clamp01(percentile / 100.0)))
+    if ref_neuf:
+        comps.append((10, clamp01((1 - prix / ref_neuf) / 0.8)))
+    score = 100.0 * sum(w * c for w, c in comps) / sum(w for w, _ in comps)
+    if suspect:
+        score = min(score, 30)
+    if peu_avis:
+        score -= 15
+    return {"rentabilite": int(max(0, min(100, round(score)))),
+            "revente_est": round(revente), "marge_est": round(marge)}
+
+
+def age_heures(iso):
+    try:
+        return (datetime.now(timezone.utc) - datetime.fromisoformat(iso)).total_seconds() / 3600
+    except Exception:
+        return 1e9
+
+
+def reference_neuf(token, q):
+    """Médiane des prix NEUFS pour cette recherche (sans plafond de prix). None si trop peu d'annonces."""
+    params = urllib.parse.urlencode({
+        "q": q,
+        "filter": "priceCurrency:EUR,deliveryCountry:FR,conditions:{NEW}",
+        "limit": "50",
+    })
+    data = json.loads(http(
+        "https://api.ebay.com/buy/browse/v1/item_summary/search?" + params,
+        {"Authorization": f"Bearer {token}", "X-EBAY-C-MARKETPLACE-ID": "EBAY_FR"},
+    ))
+    prix = [to_float(i.get("price", {}).get("value")) for i in data.get("itemSummaries", [])]
+    prix = [p for p in prix if p]
+    return round(statistics.median(prix), 2) if len(prix) >= 5 else None
+
+
+def maj_refs(refs, recherches, token, max_par_passage=3, duree_h=24):
+    """Prix neufs de référence, mis en cache 24 h (quelques appels par passage seulement)."""
+    n = 0
+    for rech in recherches:
+        if rech.get("etat", "occasion") == "neuf":
+            continue
+        r = refs.get(rech["q"])
+        if r and age_heures(r.get("maj", "")) < duree_h:
+            continue
+        if n >= max_par_passage:
+            break
+        try:
+            refs[rech["q"]] = {"neuf": reference_neuf(token, rech["q"]), "maj": now_iso()}
+            n += 1
+        except Exception as e:
+            log(f"[eBay] prix neuf indisponible pour « {rech['q']} » : {e}")
+
+
+def fetch_ebay(cfg, refs=None):
     if not cfg.get("actif", True):
         return []
     cid, secret = os.environ.get("EBAY_CLIENT_ID"), os.environ.get("EBAY_CLIENT_SECRET")
@@ -148,6 +281,11 @@ def fetch_ebay(cfg):
     min_note = float(cfg.get("min_note_vendeur", 97))
     exclus = [motif_debut_de_mot(m) for m in cfg.get("mots_exclus", [])]
     recherches = choisir_recherches(cfg.get("recherches", []), int(cfg.get("max_recherches_par_passage", 10)))
+    refs = refs if refs is not None else {}
+    marques = {**DEFAULT_MARQUES, **{k.lower(): v for k, v in cfg.get("marques", {}).items()}}
+    frais = float(cfg.get("frais_revente_pct", 5))
+    seuil_rent = float(cfg.get("seuil_rentabilite", 65))
+    maj_refs(refs, recherches, token, int(cfg.get("max_refs_neuf_par_passage", 3)))
     out = []
     for rech in recherches:
         filtres = ["priceCurrency:EUR", "deliveryCountry:FR"]
@@ -177,6 +315,7 @@ def fetch_ebay(cfg):
         prix = [to_float(i.get("price", {}).get("value")) for i in items]
         prix = [p for p in prix if p]
         mediane = statistics.median(prix) if len(prix) >= 5 else None
+        ref_neuf = (refs.get(rech["q"]) or {}).get("neuf")
         taille = (rech.get("taille") or "").strip()
         motif_taille = re.compile(r"(?<![\w])" + re.escape(taille) + r"(?![\w])", re.I) if taille else None
 
@@ -195,7 +334,14 @@ def fetch_ebay(cfg):
             remise = round((1 - p / mediane) * 100) if mediane and p < mediane else 0
             # Un prix « trop beau pour être vrai » est souvent un faux ou une arnaque : on se méfie.
             suspect = remise >= seuil_suspect
-            bonne_affaire = bool(mediane and p <= mediane * seuil and (nb_avis or 0) >= 20 and not suspect)
+            peu_avis = (nb_avis or 0) < 20
+            nom_marque, coefs = trouver_marque(titre, marques)
+            percentile = round(100 * sum(1 for x in prix if x > p) / len(prix)) if len(prix) >= 5 else None
+            rent = calcul_rentabilite(p, mediane, ref_neuf, coefs, coef_etat(i.get("condition")), frais,
+                                      percentile, suspect, peu_avis) or {}
+            bonne_affaire = bool(
+                mediane and not suspect and not peu_avis
+                and (p <= mediane * seuil or rent.get("rentabilite", 0) >= seuil_rent))
             info = f"Médiane des annonces : {mediane:.0f} €" if mediane else ""
             out.append({
                 "id": "ebay:" + (i.get("itemId") or i.get("itemWebUrl", "")),
@@ -211,7 +357,13 @@ def fetch_ebay(cfg):
                 "alerte": bonne_affaire,
                 "remise": remise,
                 "suspect": suspect,
-                "peu_avis": (nb_avis or 0) < 20,
+                "peu_avis": peu_avis,
+                "rentabilite": rent.get("rentabilite"),
+                "revente_est": rent.get("revente_est"),
+                "marge_est": rent.get("marge_est"),
+                "prix_neuf_ref": ref_neuf,
+                "percentile": percentile,
+                "marque": nom_marque,
                 "taille_ok": bool(motif_taille and motif_taille.search(titre)),
                 "info": info,
                 "recherche": rech["q"],
@@ -290,6 +442,8 @@ def categoriser(titre, cats):
 def score_interet(d):
     """Plus c'est haut, plus c'est intéressant : alerte (50) + remise vs médiane (max 50)
     + vendeur très bien noté (5) + taille dans le titre (10) ; prix suspect : -30."""
+    if d.get("rentabilite") is not None:  # annonces eBay : le score de rentabilité fait foi
+        return int(d["rentabilite"]) + (10 if d.get("taille_ok") else 0)
     s = 50 if d.get("alerte") else 0
     s += min(int(d.get("remise") or 0), 50)
     if (d.get("note_vendeur") or 0) >= 99:
