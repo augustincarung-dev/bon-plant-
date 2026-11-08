@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/veste-parkside-homme-gris-ou-noir-tailles-s-au-xxl-3448947",
+  "source": "Dealabs",
+  "titre": "Veste Parkside homme - Gris ou noir, tailles S au XXL",
+  "url": "https://www.dealabs.com/bons-plans/veste-parkside-homme-gris-ou-noir-tailles-s-au-xxl-3448947",
+  "prix": 11.99,
+  "prix_txt": "11,99€",
+  "etat": "Neuf",
+  "vendeur": "Lidl",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "11,99€ - Lidl Lien vers la page du catalogue : https://www.lidl.fr/l/catalogue-de-la-semaine/du-12-11-au-18-11-les-promos-de-la-semaine-1a2ca9/view/flyer/page/4",
+  "ajoute": "2026-11-08T09:42:34+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/jean-levis-511-slim-coloris-call-it-off-tailles-w30-a-w34-plusieurs-longueurs-3448771",
   "source": "Dealabs",
   "titre": "441° - Jean Levi's 511 Slim - Coloris Call It Off, tailles W30 à W34 (plusieurs longueurs)",
@@ -21,7 +40,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/baskets-reebok-prime-homme-blanc-et-noir-pointures-40-au-455-3448601",
   "source": "Dealabs",
-  "titre": "143° - Baskets Reebok Prime - pointures 40 au 45.5, blanc et noir",
+  "titre": "141° - Baskets Reebok Prime - pointures 40 au 45.5, blanc et noir",
   "url": "https://www.dealabs.com/bons-plans/baskets-reebok-prime-homme-blanc-et-noir-pointures-40-au-455-3448601",
   "prix": 34.99,
   "prix_txt": "34,99€",
@@ -29,13 +48,13 @@
   "vendeur": "Decathlon",
   "note_vendeur": null,
   "image": "",
-  "alerte": false,
+  "alerte": true,
   "remise": 0,
   "info": "34,99€ - Decathlon Baskets homme REEBOK PRIME – Blanc et noir Adoptez un style sportif et intemporel avec les baskets Reebok Prime. Avec leur silhouette ...",
   "ajoute": "2026-11-08T09:21:03+00:00",
   "rang": 1,
   "categorie": "Chaussures",
-  "score": 0
+  "score": 50
  },
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/chaussures-converse-chuck-taylor-all-star-lift-hi-semelle-plateforme-tailles-du-35-au-48-3448935",
@@ -48,13 +67,13 @@
   "vendeur": "SportSpar",
   "note_vendeur": null,
   "image": "",
-  "alerte": false,
+  "alerte": true,
   "remise": 0,
   "info": "13,24€ - SportSpar Bon plan pour les amateurs de baskets montantes : les Chuck Taylor All Star Lift Hi, la version haute du modèle avec semelle plateforme. Le g",
   "ajoute": "2026-11-08T09:21:03+00:00",
   "rang": 1,
   "categorie": "Chaussures",
-  "score": 0
+  "score": 50
  },
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/salomon-crosstrack-waterproof-noir-3448934",
@@ -67,13 +86,13 @@
   "vendeur": "Alltricks",
   "note_vendeur": null,
   "image": "",
-  "alerte": false,
+  "alerte": true,
   "remise": 0,
   "info": "142,99€ - Alltricks Alltricks Rechercher un produit, une marque... Chaussures de randonnée Chaussures Salomon Crosstrack Waterproof Noir Chaussures Salomon Cros",
   "ajoute": "2026-11-08T09:21:03+00:00",
   "rang": 1,
   "categorie": "Chaussures",
-  "score": 0
+  "score": 50
  },
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/realme-watch-s5-montre-connectee-ecran-amoled-143-gps-independant-autonomie-20-jours-3448943",
