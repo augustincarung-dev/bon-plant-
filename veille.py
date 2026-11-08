@@ -312,9 +312,9 @@ main{display:grid;gap:12px;padding:8px 16px 40px;max-width:960px;margin:0 auto}
 <section class="links" id="links"></section>
 <main id="list"></main>
 <script>
-const DATA = __DATA__;
+let DATA = __DATA__;
 const LIENS = __LIENS__;
-const MAJ = "__MAJ__";
+let MAJ = "__MAJ__";
 const el = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
 const ago = iso => {
   const s = (Date.now() - new Date(iso)) / 1000;
@@ -385,7 +385,11 @@ function render() {
     box.append(row);
   }
 })();
-document.getElementById("maj").textContent = DATA.length + " offres · mise à jour " + ago(MAJ);
+function majTexte(nouvelles) {
+  document.getElementById("maj").textContent = DATA.length + " offres · mise à jour " + ago(MAJ) +
+    (nouvelles > 0 ? " · +" + nouvelles + " nouvelle" + (nouvelles > 1 ? "s" : "") : "");
+}
+majTexte(0);
 document.getElementById("bar").addEventListener("click", e => {
   const f = e.target.dataset && e.target.dataset.f; if (!f) return;
   filtre = f; nb = 100;
@@ -399,6 +403,29 @@ document.getElementById("mode").addEventListener("click", e => {
 });
 document.getElementById("q").addEventListener("input", e => { terme = e.target.value.toLowerCase(); nb = 100; render(); });
 render();
+
+// Rafraîchissement automatique : toutes les 60 s (et au retour sur l'onglet), sans recharger la page.
+let nouvellesTotal = 0;
+async function rafraichir() {
+  try {
+    const r = await fetch("deals.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) return;
+    const nouv = await r.json();
+    if (!Array.isArray(nouv)) return;
+    const sig = x => x.map(d => d.id + "|" + d.prix + "|" + d.score).join(",");
+    if (sig(nouv) !== sig(DATA)) {
+      const anciens = new Set(DATA.map(d => d.id));
+      nouvellesTotal += nouv.filter(d => !anciens.has(d.id)).length;
+      DATA = nouv;
+      const lm = r.headers.get("last-modified");
+      MAJ = lm ? new Date(lm).toISOString() : new Date().toISOString();
+      render();
+    }
+    majTexte(nouvellesTotal);
+  } catch (e) { /* hors-ligne ou erreur passagère : on réessaiera */ }
+}
+setInterval(() => { if (!document.hidden) rafraichir(); }, 60000);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) rafraichir(); });
 </script>
 </body>
 </html>
