@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/voiture-f1-oracle-red-bull-racing-rb20-lego-speed-champions-77243-via-438eur-de-fidelite-3449441",
+  "source": "Dealabs",
+  "titre": "Voiture F1 Oracle Red Bull Racing RB20 LEGO Speed Champions 77243 (via 4,38€ de fidélité)",
+  "url": "https://www.dealabs.com/bons-plans/voiture-f1-oracle-red-bull-racing-rb20-lego-speed-champions-77243-via-438eur-de-fidelite-3449441",
+  "prix": 13.14,
+  "prix_txt": "13,14€",
+  "etat": "Neuf",
+  "vendeur": "E.Leclerc",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "13,14€ - E.Leclerc A 26.99 € chez LEGO +5,95 de fdp livraison gratuite en magasin",
+  "ajoute": "2026-11-09T05:30:09+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/selection-de-sweat-a-capuche-en-coton-one-piece-ou-dbz-tailles-xs-a-3xl-ex-sweat-capuche-mugiwara-noir-dore-3449325",
   "source": "Dealabs",
   "titre": "Sélection de sweat à capuche en coton One piece ou DBZ - tailles XS à 3XL, ex: Sweat Capuche Mugiwara Noir Doré",
@@ -135,7 +154,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/sweat-a-capuche-puma-essentiel-gros-logo-3449046",
   "source": "Dealabs",
-  "titre": "142° - Sweat à capuche Puma Essentiel Logo - Gris",
+  "titre": "150° - Sweat à capuche Puma Essentiel Logo - Gris",
   "url": "https://www.dealabs.com/bons-plans/sweat-a-capuche-puma-essentiel-gros-logo-3449046",
   "prix": 20.0,
   "prix_txt": "20€",
@@ -477,7 +496,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/jordan-air-1-mid-se-3449186",
   "source": "Dealabs",
-  "titre": "115° - Baskets Jordan Air 1 mid SE - Du 40,5 au 47",
+  "titre": "118° - Baskets Jordan Air 1 mid SE - Du 40,5 au 47",
   "url": "https://www.dealabs.com/bons-plans/jordan-air-1-mid-se-3449186",
   "prix": 64.99,
   "prix_txt": "64,99€",
