@@ -496,7 +496,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/jordan-air-1-mid-se-3449186",
   "source": "Dealabs",
-  "titre": "118° - Baskets Jordan Air 1 mid SE - Du 40,5 au 47",
+  "titre": "130° - Baskets Jordan Air 1 mid SE - Du 40,5 au 47",
   "url": "https://www.dealabs.com/bons-plans/jordan-air-1-mid-se-3449186",
   "prix": 64.99,
   "prix_txt": "64,99€",
@@ -1365,6 +1365,25 @@
   "rang": 4,
   "categorie": "Maison",
   "score": 0
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/star-wars-75456-calendrier-de-lavent-2026-675eur-de-cagnotte-fidelite-3449462",
+  "source": "Dealabs",
+  "titre": "Star Wars 75456 - Calendrier de l'avent 2026 (6,75€ de cagnotte fidélité)",
+  "url": "https://www.dealabs.com/bons-plans/star-wars-75456-calendrier-de-lavent-2026-675eur-de-cagnotte-fidelite-3449462",
+  "prix": 20.24,
+  "prix_txt": "20,24€",
+  "etat": "Neuf",
+  "vendeur": "Auchan",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "20,24€ - Auchan Le Calendrier de l’Avent 2026 LEGO® Star Wars ™ (75456) inspire chaque jour des jeux créatifs en attendant Noël. Rempli de jouets miniatures Sta",
+  "ajoute": "2026-11-09T06:32:16+00:00",
+  "rang": 5,
+  "categorie": "Autres",
+  "score": 50
  },
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/pelleteuse-volvo-ec500-hybride-lego-technic-42215-via-7250-eur-de-fidelite-3449423",
