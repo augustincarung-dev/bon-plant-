@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/lego-speed-champions-77263-bmw-m3-e30-3411036",
+  "source": "Dealabs",
+  "titre": "811° - Lego Speed Champions 77263 BMW M3 E30",
+  "url": "https://www.dealabs.com/bons-plans/lego-speed-champions-77263-bmw-m3-e30-3411036",
+  "prix": 19.59,
+  "prix_txt": "19,59€",
+  "etat": "Neuf",
+  "vendeur": "Amazon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "19,59€ - Amazon Un bon prix direct pour cette nouveauté avec la livraison gratuite en point relais. 27.99 euros + 5.95 euros de livraison chez Lego.",
+  "ajoute": "2026-11-09T22:55:35+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/veste-carhartt-storm-defender-3450320",
   "source": "Dealabs",
   "titre": "Veste Carhartt Storm defender - Taille XS à M",
@@ -116,7 +135,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/eau-de-parfum-jean-paul-gaultier-scandal-intense-intense-spray-femme-50-ml-3450066",
   "source": "Dealabs",
-  "titre": "Eau de Parfum Jean Paul Gaultier Scandal Intense Intense Spray femme - 50 ml",
+  "titre": "106° - Eau de Parfum Jean Paul Gaultier Scandal Intense Intense Spray femme - 50 ml",
   "url": "https://www.dealabs.com/bons-plans/eau-de-parfum-jean-paul-gaultier-scandal-intense-intense-spray-femme-50-ml-3450066",
   "prix": 44.01,
   "prix_txt": "44,01€",
@@ -126,7 +145,7 @@
   "image": "",
   "alerte": true,
   "remise": 0,
-  "info": "44,01€ - JoyBuy Super prix ! Il faut cocher le coupon de 25€ pour avoir ce tarif Caractéristiques principales et points forts Parfum intense floral-vanille - ad",
+  "info": "44,01€ - JoyBuy Super prix ! Il faut cocher le coupon de 25€ pour avoir ce tarif Caractéristiques principales et points forts ...",
   "ajoute": "2026-11-09T16:30:30+00:00",
   "rang": 0,
   "categorie": "Vêtements",
