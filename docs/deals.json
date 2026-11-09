@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/eau-de-parfum-jean-paul-gaultier-scandal-intense-intense-spray-femme-50-ml-3450066",
+  "source": "Dealabs",
+  "titre": "Eau de Parfum Jean Paul Gaultier Scandal Intense Intense Spray femme - 50 ml",
+  "url": "https://www.dealabs.com/bons-plans/eau-de-parfum-jean-paul-gaultier-scandal-intense-intense-spray-femme-50-ml-3450066",
+  "prix": 44.01,
+  "prix_txt": "44,01€",
+  "etat": "Neuf",
+  "vendeur": "JoyBuy",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "44,01€ - JoyBuy Super prix ! Il faut cocher le coupon de 25€ pour avoir ce tarif Caractéristiques principales et points forts Parfum intense floral-vanille - ad",
+  "ajoute": "2026-11-09T16:30:30+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/eau-de-parfum-jean-paul-gaultier-le-male-elixir-200-ml-3449950",
   "source": "Dealabs",
   "titre": "Eau de Parfum Jean Paul Gaultier Le Male Elixir - 200 ml",
@@ -456,6 +475,25 @@
   "score": 50
  },
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/selection-de-chaussures-nike-air-force-1-pour-homme-en-promotion-ex-baskets-basses-white-du-355-au-445-3450071",
+  "source": "Dealabs",
+  "titre": "Sélection de chaussures Nike Air Force 1 pour femme en promotion - Ex : Baskets basses white du 35.5 au 44.5",
+  "url": "https://www.dealabs.com/bons-plans/selection-de-chaussures-nike-air-force-1-pour-homme-en-promotion-ex-baskets-basses-white-du-355-au-445-3450071",
+  "prix": 76.76,
+  "prix_txt": "76,76€",
+  "etat": "Neuf",
+  "vendeur": "Zalando",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "76,76€ - Zalando Quelques paires de Air Force One pour femme en promotioncette fois ci (party) 20% de réduction sur 119.95€ 20% de réduction supplémentaire dès ",
+  "ajoute": "2026-11-09T16:30:30+00:00",
+  "rang": 1,
+  "categorie": "Chaussures",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/vans-en-nubuck-filmore-3449942",
   "source": "Dealabs",
   "titre": "Baskets basses Vans Filmore Noire - Tailles du 38.5, 40,42.5 et 44",
@@ -610,7 +648,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/chaussures-de-running-asics-novablast-6-gore-tex-du-40-au-505-3449412",
   "source": "Dealabs",
-  "titre": "Chaussures de running Asics Novablast 6 Gore-Tex du 40 au 50.5",
+  "titre": "101° - Chaussures de running Asics Novablast 6 Gore-Tex - du 40 au 50.5",
   "url": "https://www.dealabs.com/bons-plans/chaussures-de-running-asics-novablast-6-gore-tex-du-40-au-505-3449412",
   "prix": 108.76,
   "prix_txt": "108,76€",
@@ -1650,6 +1688,25 @@
   "rang": 4,
   "categorie": "Maison",
   "score": 0
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/vinyle-lp-greenday-dookie-3450078",
+  "source": "Dealabs",
+  "titre": "Vinyle LP GreenDay - Dookie",
+  "url": "https://www.dealabs.com/bons-plans/vinyle-lp-greenday-dookie-3450078",
+  "prix": 17.99,
+  "prix_txt": "17,99€",
+  "etat": "Neuf",
+  "vendeur": "Amazon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "17,99€ - Amazon Troisième album du groupe (et leur premier sur une major, Reprise Records), il a capturé l’esprit d’une génération d’adolescents apathiques et e",
+  "ajoute": "2026-11-09T16:30:30+00:00",
+  "rang": 5,
+  "categorie": "Autres",
+  "score": 50
  },
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/lego-ideas-21354-twilight-la-maison-des-cullen-2001-pieces-7-minifigurines-via-retrait-magasin-3449933",
