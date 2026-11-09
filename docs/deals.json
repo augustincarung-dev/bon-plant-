@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/jean-moto-bering-fiz-bleu-clair-du-s-au-3-xl-3450389",
+  "source": "Dealabs",
+  "titre": "Jean Moto Bering Fiz Bleu Clair - Tailles S à 3 XL",
+  "url": "https://www.dealabs.com/bons-plans/jean-moto-bering-fiz-bleu-clair-du-s-au-3-xl-3450389",
+  "prix": 55.0,
+  "prix_txt": "55€",
+  "etat": "Neuf",
+  "vendeur": "Speedway",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "55€ - Speedway Description Jean Bering Fiz Bleu Clair Bering vous présente son jean homme, Fiz en coloris bleu clair. Ce jean moto offre une coupe moderne et un",
+  "ajoute": "2026-11-09T23:59:39+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/lego-speed-champions-77252-voiture-de-course-de-lecurie-apxgp-de-f1-le-film-3450357",
   "source": "Dealabs",
   "titre": "Lego Speed Champions 77252 - Voiture de Course de L’ecurie APXGP De F1 : Le Film",
@@ -21,7 +40,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/lego-speed-champions-77263-bmw-m3-e30-3411036",
   "source": "Dealabs",
-  "titre": "813° - Lego Speed Champions 77263 BMW M3 E30",
+  "titre": "818° - Lego Speed Champions 77263 BMW M3 E30",
   "url": "https://www.dealabs.com/bons-plans/lego-speed-champions-77263-bmw-m3-e30-3411036",
   "prix": 19.59,
   "prix_txt": "19,59€",
@@ -154,7 +173,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/eau-de-parfum-jean-paul-gaultier-scandal-intense-intense-spray-femme-50-ml-3450066",
   "source": "Dealabs",
-  "titre": "121° - Eau de Parfum Jean Paul Gaultier Scandal Intense Intense Spray femme - 50 ml",
+  "titre": "125° - Eau de Parfum Jean Paul Gaultier Scandal Intense Intense Spray femme - 50 ml",
   "url": "https://www.dealabs.com/bons-plans/eau-de-parfum-jean-paul-gaultier-scandal-intense-intense-spray-femme-50-ml-3450066",
   "prix": 44.01,
   "prix_txt": "44,01€",
@@ -627,6 +646,25 @@
   "score": 50
  },
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/skechers-baskets-uno-stand-on-air-pour-homme-du-39-au-485-3450407",
+  "source": "Dealabs",
+  "titre": "Skechers Baskets Uno Stand on Air pour Homme du 39 au 48.5",
+  "url": "https://www.dealabs.com/bons-plans/skechers-baskets-uno-stand-on-air-pour-homme-du-39-au-485-3450407",
+  "prix": 43.95,
+  "prix_txt": "43,95€",
+  "etat": "Neuf",
+  "vendeur": "Amazon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "43,95€ - Amazon Description Détails du produit : Type de talon : Hauteur de talon : 3 cm Fermeture : Lacet Finition : Type de bout : Dessus / Tige : Cuir Semell",
+  "ajoute": "2026-11-09T23:59:39+00:00",
+  "rang": 1,
+  "categorie": "Chaussures",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/new-balance-740-bleu-du-40-au-45-3450370",
   "source": "Dealabs",
   "titre": "New Balance 740 - Bleu du 40 au 45",
@@ -819,7 +857,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/chaussures-nike-p-6000-unisex-baskets-basses-iron-greysaillight-army-du-355-au-495-3450173",
   "source": "Dealabs",
-  "titre": "112° - Baskets Nike P 6000 Unisex iron grey/sail/light army - du 35.5 au 49.5",
+  "titre": "121° - Baskets Nike P 6000 Unisex iron grey/sail/light army - du 35.5 au 49.5",
   "url": "https://www.dealabs.com/bons-plans/chaussures-nike-p-6000-unisex-baskets-basses-iron-greysaillight-army-du-355-au-495-3450173",
   "prix": 57.56,
   "prix_txt": "57,56€",
