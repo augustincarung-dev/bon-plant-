@@ -135,7 +135,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/sweat-a-capuche-puma-essentiel-gros-logo-3449046",
   "source": "Dealabs",
-  "titre": "132° - Sweat à capuche Puma Essentiel Logo - Gris",
+  "titre": "134° - Sweat à capuche Puma Essentiel Logo - Gris",
   "url": "https://www.dealabs.com/bons-plans/sweat-a-capuche-puma-essentiel-gros-logo-3449046",
   "prix": 20.0,
   "prix_txt": "20€",
@@ -477,7 +477,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/jordan-air-1-mid-se-3449186",
   "source": "Dealabs",
-  "titre": "115° - Baskets Jordan Air 1 mid SE - Du 40,5 au 47",
+  "titre": "114° - Baskets Jordan Air 1 mid SE - Du 40,5 au 47",
   "url": "https://www.dealabs.com/bons-plans/jordan-air-1-mid-se-3449186",
   "prix": 64.99,
   "prix_txt": "64,99€",
@@ -1346,6 +1346,25 @@
   "rang": 4,
   "categorie": "Maison",
   "score": 0
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/pelleteuse-volvo-ec500-hybride-lego-technic-42215-via-7250-eur-de-fidelite-3449423",
+  "source": "Dealabs",
+  "titre": "Pelleteuse Volvo EC500 hybride LEGO Technic 42215 (via 72,50 € de fidélité)",
+  "url": "https://www.dealabs.com/bons-plans/pelleteuse-volvo-ec500-hybride-lego-technic-42215-via-7250-eur-de-fidelite-3449423",
+  "prix": 217.49,
+  "prix_txt": "217,49€",
+  "etat": "Neuf",
+  "vendeur": "Auchan",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "217,49€ - Auchan Un très bon prix pour ce set bientôt retiré à 399.99 € chez LEGO 5% supplémentaires via bourso Plongez dans un projet de construction immersif ",
+  "ajoute": "2026-11-09T03:26:13+00:00",
+  "rang": 5,
+  "categorie": "Autres",
+  "score": 50
  },
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/selection-de-sets-lego-a-25-ex-lego-icons-shrek-lane-et-le-chat-potte-72423-3449420",
