@@ -154,7 +154,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/selection-darticles-lacoste-en-promotion-ex-lot-de-3-paires-de-chaussettes-lacoste-core-performance-tailles-35-a-46-3449739",
   "source": "Dealabs",
-  "titre": "Sélection d'articles Lacoste en promotion - ex: lot de 3 paires de chaussettes Lacoste Core Performance , tailles 35 à 46",
+  "titre": "171° - Sélection d'articles Lacoste en promotion - ex: lot de 3 paires de chaussettes Lacoste Core Performance , tailles 35 à 46",
   "url": "https://www.dealabs.com/bons-plans/selection-darticles-lacoste-en-promotion-ex-lot-de-3-paires-de-chaussettes-lacoste-core-performance-tailles-35-a-46-3449739",
   "prix": 11.27,
   "prix_txt": "11,27€",
@@ -164,7 +164,7 @@
   "image": "",
   "alerte": true,
   "remise": 0,
-  "info": "11,27€ - Tennispro Titre : Sélection vêtements Lacoste jusqu’à -50% Tous les articles ici Grosse sélection Lacoste en promo chez Tennispro. Voici les articles l",
+  "info": "11,27€ - Tennispro Titre : Sélection vêtements Lacoste jusqu’à -50% Tous les articles <a href=\"https://www.tennispro.fr/collections/vetements-de-tennis-...",
   "ajoute": "2026-11-09T10:33:15+00:00",
   "rang": 0,
   "categorie": "Vêtements",
@@ -401,7 +401,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/survetement-dentrainement-adidas-homme-m-bl-ft-hd-ts-du-s-au-xxl-3448982",
   "source": "Dealabs",
-  "titre": "Survêtement d'entraînement Adidas homme - du S au XXL",
+  "titre": "130° - Survêtement d'entraînement Adidas homme - du S au XXL",
   "url": "https://www.dealabs.com/bons-plans/survetement-dentrainement-adidas-homme-m-bl-ft-hd-ts-du-s-au-xxl-3448982",
   "prix": 29.99,
   "prix_txt": "29,99€",
@@ -472,6 +472,25 @@
   "ajoute": "2026-11-08T09:21:03+00:00",
   "rang": 0,
   "categorie": "Vêtements",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/nike-court-vision-verte-3449519",
+  "source": "Dealabs",
+  "titre": "133° - Chaussures Nike Court Vision - Vert, Tailles du 35,5 au 44,5",
+  "url": "https://www.dealabs.com/bons-plans/nike-court-vision-verte-3449519",
+  "prix": 38.9,
+  "prix_txt": "38,90€",
+  "etat": "Neuf",
+  "vendeur": "Privé by Zalando",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "38,90€ - Privé by Zalando Du 35.5 au 44.5",
+  "ajoute": "2026-11-09T17:29:10+00:00",
+  "rang": 1,
+  "categorie": "Chaussures",
   "score": 50
  },
  {
@@ -648,7 +667,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/chaussures-de-running-asics-novablast-6-gore-tex-du-40-au-505-3449412",
   "source": "Dealabs",
-  "titre": "101° - Chaussures de running Asics Novablast 6 Gore-Tex - du 40 au 50.5",
+  "titre": "113° - Chaussures de running Asics Novablast 6 Gore-Tex - du 40 au 50.5",
   "url": "https://www.dealabs.com/bons-plans/chaussures-de-running-asics-novablast-6-gore-tex-du-40-au-505-3449412",
   "prix": 108.76,
   "prix_txt": "108,76€",
@@ -1690,6 +1709,25 @@
   "score": 0
  },
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/lego-donkey-kong-jeu-darcade-donkey-kong-72051-au-meilleur-prix-eleclerc-3450138",
+  "source": "Dealabs",
+  "titre": "LEGO Donkey Kong 72051 - Jeu d'Arcade Donkey Kong (via 26€ cagnottés)",
+  "url": "https://www.dealabs.com/bons-plans/lego-donkey-kong-jeu-darcade-donkey-kong-72051-au-meilleur-prix-eleclerc-3450138",
+  "prix": 103.99,
+  "prix_txt": "103,99€",
+  "etat": "Neuf",
+  "vendeur": "E.Leclerc",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "103,99€ - E.Leclerc • Set de construction pour adulte inspiré du jeu d’arcade Donkey Kong • Comprend Jumpman, Donkey Kong et Lady • Inclut un échafaudage, une é",
+  "ajoute": "2026-11-09T17:29:10+00:00",
+  "rang": 5,
+  "categorie": "Autres",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/vinyle-lp-greenday-dookie-3450078",
   "source": "Dealabs",
   "titre": "Vinyle LP GreenDay - Dookie",
@@ -2034,7 +2072,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/chaussure-de-running-nike-pegasus-42-du-425-au-47-3449006",
   "source": "Dealabs",
-  "titre": "Chaussure de running Nike pegasus 42 - Tailles du 42.5 au 47",
+  "titre": "124° - Chaussure de running Nike pegasus 42 - Tailles du 42.5 au 47",
   "url": "https://www.dealabs.com/bons-plans/chaussure-de-running-nike-pegasus-42-du-425-au-47-3449006",
   "prix": 75.67,
   "prix_txt": "75,67€",
