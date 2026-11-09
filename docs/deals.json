@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/veste-carhartt-storm-defender-3450320",
+  "source": "Dealabs",
+  "titre": "Veste Carhartt Storm defender - Taille XS à M",
+  "url": "https://www.dealabs.com/bons-plans/veste-carhartt-storm-defender-3450320",
+  "prix": 75.99,
+  "prix_txt": "75,99€",
+  "etat": "Neuf",
+  "vendeur": "Carhartt",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "75,99€ - Carhartt J'avoue que je suis tombé dessus par hasard en cherchant les références d'une autre veste. Mais du coup je trouve que ce n'est pas bien cher p",
+  "ajoute": "2026-11-09T22:14:39+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/doudoune-sans-coutures-col-montant-3450307",
   "source": "Dealabs",
   "titre": "Doudoune sans coutures - Col montant, Taille XXL ou XXXL",
@@ -572,7 +591,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/selection-de-chaussures-nike-air-force-1-pour-homme-en-promotion-ex-baskets-basses-whitewhitegrey-fog-3450053",
   "source": "Dealabs",
-  "titre": "134° - Sélection de Chaussures Nike Air Force 1 pour homme en promotion - Ex : Baskets basses - white/white/grey fog",
+  "titre": "139° - Sélection de Chaussures Nike Air Force 1 pour homme en promotion - Ex : Baskets basses - white/white/grey fog",
   "url": "https://www.dealabs.com/bons-plans/selection-de-chaussures-nike-air-force-1-pour-homme-en-promotion-ex-baskets-basses-whitewhitegrey-fog-3450053",
   "prix": 76.76,
   "prix_txt": "76,76€",
@@ -1180,7 +1199,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/nike-air-max-95-og-olympic-2026-3449091",
   "source": "Dealabs",
-  "titre": "139° - Baskets Nike Air Max 95 OG Olympic 2026 - Plusieurs tailles disponibles",
+  "titre": "146° - Baskets Nike Air Max 95 OG Olympic 2026 - Plusieurs tailles disponibles",
   "url": "https://www.dealabs.com/bons-plans/nike-air-max-95-og-olympic-2026-3449091",
   "prix": 69.0,
   "prix_txt": "69€",
