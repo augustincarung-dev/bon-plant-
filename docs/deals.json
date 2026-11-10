@@ -192,7 +192,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/selection-de-chinos-polos-chemises-et-t-shirts-lacoste-ralph-lauren-en-promotion-ex-lot-de-2-t-shirt-lacoste-3450762",
   "source": "Dealabs",
-  "titre": "111° - Sélection de Chinos, Polos, Chemises & T-Shirts Lacoste & Ralph Lauren en promotion - Ex : Lot de 3 T-Shirt Lacoste, Tailles M, L ou XL",
+  "titre": "145° - Sélection de Chinos, Polos, Chemises & T-Shirts Lacoste & Ralph Lauren en promotion - Ex : Lot de 3 T-Shirt Lacoste, Tailles M, L ou XL",
   "url": "https://www.dealabs.com/bons-plans/selection-de-chinos-polos-chemises-et-t-shirts-lacoste-ralph-lauren-en-promotion-ex-lot-de-2-t-shirt-lacoste-3450762",
   "prix": 32.0,
   "prix_txt": "32€",
@@ -966,6 +966,25 @@
   "ajoute": "2026-11-08T09:21:03+00:00",
   "rang": 0,
   "categorie": "Vêtements",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/baskets-nike-air-jordan-6-white-infrared-og-2026-tailles-du-40-au-495-3451371",
+  "source": "Dealabs",
+  "titre": "Baskets Nike air Jordan 6 white infrared OG 2026 - Du 40 au 49,5",
+  "url": "https://www.dealabs.com/bons-plans/baskets-nike-air-jordan-6-white-infrared-og-2026-tailles-du-40-au-495-3451371",
+  "prix": 167.99,
+  "prix_txt": "167,99€",
+  "etat": "Neuf",
+  "vendeur": "BSTN",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "167,99€ - BSTN • Coloris blanc avec éléments noirs et touches Light Crimson • Empeigne en cuir blanc • Logo Nike Air au talon",
+  "ajoute": "2026-11-10T17:40:48+00:00",
+  "rang": 1,
+  "categorie": "Chaussures",
   "score": 50
  },
  {
