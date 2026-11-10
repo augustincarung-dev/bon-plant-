@@ -2,7 +2,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/veste-en-laine-melangee-uniqlo-tailles-xxs-a-xxl-3439634",
   "source": "Dealabs",
-  "titre": "Veste Uniqlo - en Laine Mélangée, Noir, Gris, ou Kaki, Tailles du XXS au XXL",
+  "titre": "288° - Veste Uniqlo - en Laine Mélangée, Noir, Gris, ou Kaki, Tailles du XXS au XXL",
   "url": "https://www.dealabs.com/bons-plans/veste-en-laine-melangee-uniqlo-tailles-xxs-a-xxl-3439634",
   "prix": 39.9,
   "prix_txt": "39,90€",
@@ -12,7 +12,7 @@
   "image": "",
   "alerte": true,
   "remise": 0,
-  "info": "39,90€ - Uniqlo Veste unisexe en laine mélangée Uniqlo (489482) – coupe oversize, plusieurs coloris – 59,90 € La veste en laine mélangée Uniqlo passe à 59,90 € ",
+  "info": "39,90€ - Uniqlo Veste unisexe en laine mélangée Uniqlo (489482) – coupe oversize, plusieurs coloris – 59,90 € La veste en laine mélangée Uniqlo passe à 59...",
   "ajoute": "2026-11-10T06:39:06+00:00",
   "rang": 0,
   "categorie": "Vêtements",
@@ -135,7 +135,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/lego-speed-champions-77252-voiture-de-course-de-lecurie-apxgp-de-f1-le-film-3450357",
   "source": "Dealabs",
-  "titre": "Lego Speed Champions 77252 - Voiture de Course de L’ecurie APXGP De F1 : Le Film",
+  "titre": "121° - Lego Speed Champions 77252 - Voiture de Course de L’ecurie APXGP De F1 : Le Film",
   "url": "https://www.dealabs.com/bons-plans/lego-speed-champions-77252-voiture-de-course-de-lecurie-apxgp-de-f1-le-film-3450357",
   "prix": 22.39,
   "prix_txt": "22,39€",
@@ -173,7 +173,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/veste-carhartt-storm-defender-3450320",
   "source": "Dealabs",
-  "titre": "164° - Veste Carhartt Storm Defender - Noir, Tailles XS, S ou M",
+  "titre": "190° - Veste Carhartt Storm Defender - Noir, Tailles XS, S ou M",
   "url": "https://www.dealabs.com/bons-plans/veste-carhartt-storm-defender-3450320",
   "prix": 75.99,
   "prix_txt": "75,99€",
@@ -249,7 +249,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/veste-moto-macna-tryton-3450175",
   "source": "Dealabs",
-  "titre": "Veste Moto Macna Tryton",
+  "titre": "133° - Veste Moto Macna Tryton",
   "url": "https://www.dealabs.com/bons-plans/veste-moto-macna-tryton-3450175",
   "prix": 266.93,
   "prix_txt": "266,93€",
@@ -757,6 +757,25 @@
   "ajoute": "2026-11-08T09:21:03+00:00",
   "rang": 0,
   "categorie": "Vêtements",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/vans-ua-sk8-low-noires-et-blanches-3450633",
+  "source": "Dealabs",
+  "titre": "Vans UA SK8 LOW noires et blanches",
+  "url": "https://www.dealabs.com/bons-plans/vans-ua-sk8-low-noires-et-blanches-3450633",
+  "prix": 18.5,
+  "prix_txt": "18,50€",
+  "etat": "Neuf",
+  "vendeur": "Privé by Zalando",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "18,50€ - Privé by Zalando Unisexe Taille 34.5 à 46",
+  "ajoute": "2026-11-10T07:49:52+00:00",
+  "rang": 1,
+  "categorie": "Chaussures",
   "score": 50
  },
  {
@@ -2277,6 +2296,25 @@
   "rang": 4,
   "categorie": "Maison",
   "score": 0
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/lot-de-6-boxer-danish-endurance-anti-frottement-tailles-de-s-a-4xl-vendeur-tiers-3450540",
+  "source": "Dealabs",
+  "titre": "Lot de 6 Boxers Danish Endurance - Anti-Frottement, Tailles de S a 4XL (Vendeur tiers)",
+  "url": "https://www.dealabs.com/bons-plans/lot-de-6-boxer-danish-endurance-anti-frottement-tailles-de-s-a-4xl-vendeur-tiers-3450540",
+  "prix": 32.45,
+  "prix_txt": "32,45€",
+  "etat": "Neuf",
+  "vendeur": "Amazon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "32,45€ - Amazon AGILITÉ PARFAITE : Jambe normale ou longue, notre boxer sport ultra-extensible suit vos mouvements sans s’enrouler ni remonter. Sans plis pour u",
+  "ajoute": "2026-11-10T07:49:52+00:00",
+  "rang": 5,
+  "categorie": "Autres",
+  "score": 50
  },
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/telephone-fixe-alcatel-epure-premium-avec-repondeur-blanc-ou-noir-via-odr-10eur-3450419",
