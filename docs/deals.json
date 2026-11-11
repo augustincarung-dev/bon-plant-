@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/veste-polaire-sherpa-de-randonnee-quechua-sh900-vert-tailles-du-s-au-3xl-3451723",
+  "source": "Dealabs",
+  "titre": "Veste Polaire Sherpa de Randonnée Quechua SH900 - Vert, Tailles du S au 3XL",
+  "url": "https://www.dealabs.com/bons-plans/veste-polaire-sherpa-de-randonnee-quechua-sh900-vert-tailles-du-s-au-3xl-3451723",
+  "prix": 39.99,
+  "prix_txt": "39,99€",
+  "etat": "Neuf",
+  "vendeur": "Decathlon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "39,99€ - Decathlon Ses empiècements sous les bras vous apporteront de la respirabilité. Ses poches chaudes seront un refuge pour vos mains. La poche intérieure ",
+  "ajoute": "2026-11-11T03:08:07+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/vol-allerretour-beauvais-bva-poznan-pologne-du-22-novembre-au-29-novembre-bagage-cabine-3451655",
   "source": "Dealabs",
   "titre": "Vol Aller/Retour Beauvais BVA <=> Poznan Pologne - Du 22 Novembre au 29 Novembre (Bagage cabine)",
@@ -2866,6 +2885,25 @@
   "rang": 4,
   "categorie": "Maison",
   "score": 0
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/codes-promo/lidl-plus-11-sur-tout-le-site-hors-alimentaire-pour-le-singles-day-uniquement-le-1111-3451721",
+  "source": "Dealabs",
+  "titre": "[Lidl Plus] -11 % sur tout le site hors alimentaire pour le Singles' Day (uniquement le 11/11)",
+  "url": "https://www.dealabs.com/codes-promo/lidl-plus-11-sur-tout-le-site-hors-alimentaire-pour-le-singles-day-uniquement-le-1111-3451721",
+  "prix": null,
+  "prix_txt": "",
+  "etat": "Neuf",
+  "vendeur": "Lidl",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "Lidl Lidl Singles Week : -11 % sur tout le site lidl.fr, uniquement aujourd'hui (11/11) Pour la fête des célibataires, Lidl offre -11 % sur les produits non ali",
+  "ajoute": "2026-11-11T03:08:07+00:00",
+  "rang": 5,
+  "categorie": "Autres",
+  "score": 50
  },
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/vol-allerretour-marseille-mrs-malte-mla-du-30-novembre-au-6-decembre-bagage-cabine-3451651",
