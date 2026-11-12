@@ -2,7 +2,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/veste-polaire-supermoon-bio-hoodie-artilect-3451881",
   "source": "Dealabs",
-  "titre": "108° - Veste polaire Supermoon - Bio Hoodie Artilect",
+  "titre": "118° - Veste polaire Supermoon - Bio Hoodie Artilect",
   "url": "https://www.dealabs.com/bons-plans/veste-polaire-supermoon-bio-hoodie-artilect-3451881",
   "prix": 66.48,
   "prix_txt": "66,48€",
@@ -211,7 +211,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/jean-large-carhartt-wip-smith-blue-coton-bleu-moyen-tailles-29-31-32-et-w33-3452280",
   "source": "Dealabs",
-  "titre": "142° - Jean large Carhartt WIP Smith Blue - Coton, bleu moyen, Tailles 29, 31, 32 et W33",
+  "titre": "157° - Jean large Carhartt WIP Smith Blue - Coton, bleu moyen, Tailles 29, 31, 32 et W33",
   "url": "https://www.dealabs.com/bons-plans/jean-large-carhartt-wip-smith-blue-coton-bleu-moyen-tailles-29-31-32-et-w33-3452280",
   "prix": 49.5,
   "prix_txt": "49,50€",
@@ -1332,7 +1332,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/air-jordan-1-low-unisex-baskets-basses-light-armycargo-khakiwhite-3452408",
   "source": "Dealabs",
-  "titre": "131° - Baskets basses Air Jordan 1 Low Unisex - light army/cargo khaki/white",
+  "titre": "139° - Baskets basses Air Jordan 1 Low Unisex - light army/cargo khaki/white",
   "url": "https://www.dealabs.com/bons-plans/air-jordan-1-low-unisex-baskets-basses-light-armycargo-khakiwhite-3452408",
   "prix": 77.95,
   "prix_txt": "77,95€",
@@ -2334,6 +2334,25 @@
   "ajoute": "2026-11-10T05:45:41+00:00",
   "rang": 4,
   "categorie": "Maison",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/ensemble-coupe-ongles-3-en-1-pour-ongles-incarnes-inclines-a-45-3452676",
+  "source": "Dealabs",
+  "titre": "Ensemble coupe-ongles 3 en 1 pour ongles incarnés inclinés à 45°",
+  "url": "https://www.dealabs.com/bons-plans/ensemble-coupe-ongles-3-en-1-pour-ongles-incarnes-inclines-a-45-3452676",
+  "prix": 3.99,
+  "prix_txt": "3,99€",
+  "etat": "Neuf",
+  "vendeur": "Amazon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "3,99€ - Amazon Idéal pour couper vos ongles et vous prendre un tir de projection À propos de ce produit Indispensable pour la famille et le voyage 3 en 1 : le s",
+  "ajoute": "2026-11-12T01:26:36+00:00",
+  "rang": 5,
+  "categorie": "Autres",
   "score": 50
  },
  {
