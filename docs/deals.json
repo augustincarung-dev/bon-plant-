@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/eau-de-parfum-jean-paul-gaultier-le-male-le-parfum-75ml-3454628",
+  "source": "Dealabs",
+  "titre": "Eau de Parfum Jean Paul Gaultier Le Male le Parfum - 75 ml",
+  "url": "https://www.dealabs.com/bons-plans/eau-de-parfum-jean-paul-gaultier-le-male-le-parfum-75ml-3454628",
+  "prix": 51.3,
+  "prix_txt": "51,30€",
+  "etat": "Neuf",
+  "vendeur": "Flaconi",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "51,30€ - Flaconi Le Male Le Parfum de Jean Paul Gaultier est un parfum Orientale pour homme. Le Male Le Parfum a été lancé en 2020. Le Male Le Parfum a été créé",
+  "ajoute": "2026-11-13T17:30:27+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/bon-prix-3454576",
   "source": "Dealabs",
   "titre": "Jean Slim Levi's 511 - Délavé Stone, Homme",
@@ -1479,6 +1498,25 @@
   "ajoute": "2026-11-10T18:22:08+00:00",
   "rang": 0,
   "categorie": "Vêtements",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/jordan-low-se-taille-3454666",
+  "source": "Dealabs",
+  "titre": "Jordan low se taille",
+  "url": "https://www.dealabs.com/bons-plans/jordan-low-se-taille-3454666",
+  "prix": 84.0,
+  "prix_txt": "84€",
+  "etat": "Neuf",
+  "vendeur": "Basket4ballers",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "84€ - Basket4ballers • Baskets AJ1 basses pour homme Plusieurs autres modèles disponibles",
+  "ajoute": "2026-11-13T17:30:27+00:00",
+  "rang": 1,
+  "categorie": "Chaussures",
   "score": 50
  },
  {
@@ -3249,6 +3287,25 @@
   "score": 50
  },
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/ensemble-sport-under-armour-3454640",
+  "source": "Dealabs",
+  "titre": "Ensemble sport Under Armour",
+  "url": "https://www.dealabs.com/bons-plans/ensemble-sport-under-armour-3454640",
+  "prix": 39.55,
+  "prix_txt": "39,55€",
+  "etat": "Neuf",
+  "vendeur": "Amazon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "39,55€ - Amazon Ensemble jogging Under Armour À propos de ce produit Tenue pratique - cette tenue de sport confortable comprend une veste et un jogging, leur ma",
+  "ajoute": "2026-11-13T17:30:27+00:00",
+  "rang": 5,
+  "categorie": "Autres",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/sejour-3j2n-pour-2-a-nice-hotel-4-hotel-nice-azur-riviera-ex-du-11-au-13-decembre-3454579",
   "source": "Dealabs",
   "titre": "3J/2N dans un Hôtel 4* Nice Azur Riviera pour 2 à Nice - Ex: du 11 au 13 décembre (vio.com)",
@@ -3327,7 +3384,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/membreunidays-chaussure-de-running-nike-pegasus-42-noire-bleu-ou-noire-rouge-du-40-au-475-3454052",
   "source": "Dealabs",
-  "titre": "137° - [Membre+unidays] Chaussure de running Nike pegasus 42 - Noire bleu ou noire rouge, du 40 au 47.5",
+  "titre": "164° - [Membre+unidays] Chaussure de running Nike pegasus 42 - Noire bleu ou noire rouge, du 40 au 47.5",
   "url": "https://www.dealabs.com/bons-plans/membreunidays-chaussure-de-running-nike-pegasus-42-noire-bleu-ou-noire-rouge-du-40-au-475-3454052",
   "prix": 76.0,
   "prix_txt": "76€",
@@ -3555,7 +3612,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/barbarella-4k-ultra-hd-blu-ray-3453435",
   "source": "Dealabs",
-  "titre": "110° - Blu-ray 4K UHD : Barbarella",
+  "titre": "118° - Blu-ray 4K UHD : Barbarella",
   "url": "https://www.dealabs.com/bons-plans/barbarella-4k-ultra-hd-blu-ray-3453435",
   "prix": 11.04,
   "prix_txt": "11,04€",
