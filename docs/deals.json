@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/ensemble-survetement-enfant-french-terry-respirant-3455678",
+  "source": "Dealabs",
+  "titre": "Ensemble survêtement enfant french terry respirant",
+  "url": "https://www.dealabs.com/bons-plans/ensemble-survetement-enfant-french-terry-respirant-3455678",
+  "prix": 7.99,
+  "prix_txt": "7,99€",
+  "etat": "Neuf",
+  "vendeur": "Decathlon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "7,99€ - Decathlon Qu'est-ce que la matière French Terry (bouclette)? Ce survêtement pour enfant est conçu en bouclette, une matière agréable et adaptée à la mi-",
+  "ajoute": "2026-11-14T20:58:02+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/t-shirt-carhartt-wip-wiptopia-ii-i03721789xx03-noir-tailles-s-a-xl-via-code-3455649",
   "source": "Dealabs",
   "titre": "T-shirt Carhartt WIP Wiptopia II I037217.89.XX.03 - Noir, tailles S à XL (via code)",
@@ -2320,7 +2339,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/baskets-slip-ins-go-walk-flex-3454740",
   "source": "Dealabs",
-  "titre": "105° - Baskets sketchers Go Walk Flex - Du 40 au 45, bleu ou gris",
+  "titre": "130° - Baskets sketchers Go Walk Flex - Du 40 au 45, bleu ou gris",
   "url": "https://www.dealabs.com/bons-plans/baskets-slip-ins-go-walk-flex-3454740",
   "prix": 35.0,
   "prix_txt": "35€",
@@ -3911,6 +3930,25 @@
   "ajoute": "2026-11-12T23:26:08+00:00",
   "rang": 4,
   "categorie": "Maison",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/bohemian-rhapsody-double-vinyle-queen-3455673",
+  "source": "Dealabs",
+  "titre": "Vinyle Bohemian Rhapsody Double vinyle Queen",
+  "url": "https://www.dealabs.com/bons-plans/bohemian-rhapsody-double-vinyle-queen-3455673",
+  "prix": 21.0,
+  "prix_txt": "21€",
+  "etat": "Neuf",
+  "vendeur": "Amazon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "21€ - Amazon Liste des titres Disque : 1 120th Century Fox Fanfare - Queen2Somebody To Love - Queen3Doing All Right - Smile4Keep Yourself Alive - Queen5Killer Q",
+  "ajoute": "2026-11-14T20:58:02+00:00",
+  "rang": 5,
+  "categorie": "Autres",
   "score": 50
  },
  {
