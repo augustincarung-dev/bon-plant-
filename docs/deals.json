@@ -40,7 +40,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/jean-levis-501-3454679",
   "source": "Dealabs",
-  "titre": "123° - Jean Levi's 501 Original",
+  "titre": "138° - Jean Levi's 501 Original",
   "url": "https://www.dealabs.com/bons-plans/jean-levis-501-3454679",
   "prix": 47.8,
   "prix_txt": "47,80€",
@@ -3284,6 +3284,25 @@
   "ajoute": "2026-11-12T23:26:08+00:00",
   "rang": 2,
   "categorie": "Sacs et accessoires",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/mini-pc-firebat-r3-ryzen-5-7430u-16-go-de-lpddr4-ssd-512-go-wifi6-bt-52-windows-11-3454963",
+  "source": "Dealabs",
+  "titre": "Mini PC Firebat R3, Ryzen 5 7430U, 16 Go de LPDDR4, SSD 512 Go, WiFi6 & BT 5.2, Windows 11",
+  "url": "https://www.dealabs.com/bons-plans/mini-pc-firebat-r3-ryzen-5-7430u-16-go-de-lpddr4-ssd-512-go-wifi6-bt-52-windows-11-3454963",
+  "prix": 263.31,
+  "prix_txt": "263,31€",
+  "etat": "Neuf",
+  "vendeur": "AliExpress",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "263,31€ - AliExpress Note : il descend à 263,31€ ( voire à 243,31€* ) via cashback iGraal. * pour ceux qui arriveraient encore à décrocher la remise Paypal. Il ",
+  "ajoute": "2026-11-14T00:42:37+00:00",
+  "rang": 3,
+  "categorie": "High-tech",
   "score": 50
  },
  {
