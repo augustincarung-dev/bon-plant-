@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/t-shirt-manches-longues-demi-zip-chaud-kiprun-run-500-warm-gris-taille-s-au-2xl-3454994",
+  "source": "Dealabs",
+  "titre": "T-shirt manches longues demi zip chaud Kiprun run 500 warm gris - taille S au 2XL",
+  "url": "https://www.dealabs.com/bons-plans/t-shirt-manches-longues-demi-zip-chaud-kiprun-run-500-warm-gris-taille-s-au-2xl-3454994",
+  "prix": 19.99,
+  "prix_txt": "19,99€",
+  "etat": "Neuf",
+  "vendeur": "Decathlon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "19,99€ - Decathlon T-shirt manches longues demi-zip KIPRUN RUN 500 WARM – Homme – Gris Restez au chaud pendant vos sorties running hivernales avec le KIPRUN RUN",
+  "ajoute": "2026-11-14T05:38:16+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/pull-only-taille-l-3454984",
   "source": "Dealabs",
   "titre": "Pull only taille L",
@@ -59,7 +78,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/jean-levis-501-3454679",
   "source": "Dealabs",
-  "titre": "184° - Jean Levi's 501 Original",
+  "titre": "189° - Jean Levi's 501 Original",
   "url": "https://www.dealabs.com/bons-plans/jean-levis-501-3454679",
   "prix": 47.8,
   "prix_txt": "47,80€",
