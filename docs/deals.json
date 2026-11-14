@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/membre-30-sur-une-selection-de-vetements-carhartt-ex-anorak-leger-rockland-3455133",
+  "source": "Dealabs",
+  "titre": "[Membres] 30% de remise sur une sélection de vêtements Carhartt - ex: Anorak léger Rockland",
+  "url": "https://www.dealabs.com/bons-plans/membre-30-sur-une-selection-de-vetements-carhartt-ex-anorak-leger-rockland-3455133",
+  "prix": 70.0,
+  "prix_txt": "70€",
+  "etat": "Neuf",
+  "vendeur": "Carhartt",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "70€ - Carhartt Carhartt Black Friday Early Access : -30% sur une sélection homme avec le code EARLYBIRD30 - Lien : https://www.carhartt.com/fr-fr/c/bf-early-acc",
+  "ajoute": "2026-11-14T09:09:47+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/tee-shirts-jack-johns-3455096",
   "source": "Dealabs",
   "titre": "T-shirts Jack & Jones - Taille M",
@@ -3135,25 +3154,6 @@
   "score": 50
  },
  {
-  "id": "dealabs:https://www.dealabs.com/bons-plans/chaussures-nike-zoom-vomero-roam-2-coloris-tailles-du-355-au-42-3451913",
-  "source": "Dealabs",
-  "titre": "Chaussures Nike Zoom Vomero Roam - 2 coloris, Tailles du 35,5 au 44",
-  "url": "https://www.dealabs.com/bons-plans/chaussures-nike-zoom-vomero-roam-2-coloris-tailles-du-355-au-42-3451913",
-  "prix": 69.9,
-  "prix_txt": "69,90€",
-  "etat": "Neuf",
-  "vendeur": "Showroomprivé",
-  "note_vendeur": null,
-  "image": "",
-  "alerte": true,
-  "remise": 0,
-  "info": "69,90€ - Showroomprivé Coloris blanc : dispo du 35,5 au 44 showroomprive.com/product/product/42117516 ? Conçue pour la vie urbaine, cette version hivernale de l",
-  "ajoute": "2026-11-11T08:41:31+00:00",
-  "rang": 1,
-  "categorie": "Chaussures",
-  "score": 50
- },
- {
   "id": "dealabs:https://www.dealabs.com/bons-plans/casquette-new-era-9forty-new-york-yankees-grise-3454413",
   "source": "Dealabs",
   "titre": "Casquette New Era 9FORTY New York Yankees, grise",
@@ -3398,6 +3398,25 @@
   "ajoute": "2026-11-12T23:26:08+00:00",
   "rang": 4,
   "categorie": "Maison",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/braderie-homme-femme-bobbies-3455116",
+  "source": "Dealabs",
+  "titre": "Braderie Homme Femme Bobbies - Taille 39 à 45 (bobbies.com)",
+  "url": "https://www.dealabs.com/bons-plans/braderie-homme-femme-bobbies-3455116",
+  "prix": 100.0,
+  "prix_txt": "100€",
+  "etat": "Neuf",
+  "vendeur": "",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "100€ De très belles promotions de 30% à 60% chez Bobbies pour Hommes et Femmes, sur plein de modèles. Exemple : bottines Homme 100%cuir taille 42 à 100 euros au",
+  "ajoute": "2026-11-14T09:09:47+00:00",
+  "rang": 5,
+  "categorie": "Autres",
   "score": 50
  },
  {
