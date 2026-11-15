@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/veste-oversize-courte-col-classique-taupe-homme-3456484",
+  "source": "Dealabs",
+  "titre": "Veste oversize courte col classique taupe homme",
+  "url": "https://www.dealabs.com/bons-plans/veste-oversize-courte-col-classique-taupe-homme-3456484",
+  "prix": 47.99,
+  "prix_txt": "47,99€",
+  "etat": "Neuf",
+  "vendeur": "Bonobo Jeans",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "47,99€ - Bonobo Jeans Bonjour J’avais repéré cette veste de très bonne qualité chez bonobo cet été et je la retrouve en promo , je la partage : La veste oversiz",
+  "ajoute": "2026-11-15T21:57:36+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/veste-textile-de-moto-pour-femmes-macna-velotura-tailles-du-xs-au-2xl-ex-taille-m-3456421",
   "source": "Dealabs",
   "titre": "Veste textile de Moto pour femmes Macna Velotura - Tailles du XS au 2XL, Ex : Taille M",
@@ -173,7 +192,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/veste-geographical-norway-amigoflag-hommes-marine-du-s-au-3xl-3456347",
   "source": "Dealabs",
-  "titre": "137° - Veste Geographical Norway - Amigoflag hommes Marine, du S au 3XL",
+  "titre": "161° - Veste Geographical Norway - Amigoflag hommes Marine, du S au 3XL",
   "url": "https://www.dealabs.com/bons-plans/veste-geographical-norway-amigoflag-hommes-marine-du-s-au-3xl-3456347",
   "prix": 29.99,
   "prix_txt": "29,99€",
@@ -1976,6 +1995,25 @@
   "score": 50
  },
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/chaussures-nike-air-max-ivo-bleu-marine-tailles-40-405-41-43-475-495-3456485",
+  "source": "Dealabs",
+  "titre": "Chaussures Nike Air Max IVO - Bleu Marine, Tailles 40, 40,5, 41, 43, 47,5, 49,5",
+  "url": "https://www.dealabs.com/bons-plans/chaussures-nike-air-max-ivo-bleu-marine-tailles-40-405-41-43-475-495-3456485",
+  "prix": 56.9,
+  "prix_txt": "56,90€",
+  "etat": "Neuf",
+  "vendeur": "Privé by Zalando",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "56,90€ - Privé by Zalando Semelle d'usure: matières synthétiques Semelle intérieure: textile Doublure: textile Matière extérieure: cuir et textile Technologie d",
+  "ajoute": "2026-11-15T21:57:36+00:00",
+  "rang": 1,
+  "categorie": "Chaussures",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/baskets-new-balance-530-blanc-gris-homme-3456461",
   "source": "Dealabs",
   "titre": "Baskets New Balance 530 Blanc - Gris Homme",
@@ -2111,7 +2149,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/coupe-vent-entrada-adidas-adulte-3456243",
   "source": "Dealabs",
-  "titre": "120° - Coupe Vent Entrada Adidas - Adulte",
+  "titre": "127° - Coupe Vent Entrada Adidas - Adulte",
   "url": "https://www.dealabs.com/bons-plans/coupe-vent-entrada-adidas-adulte-3456243",
   "prix": 31.0,
   "prix_txt": "31€",
@@ -2510,7 +2548,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/decathlon-baskets-homme-rr2k-noir-du-39-au-47-3455794",
   "source": "Dealabs",
-  "titre": "172° - Baskets homme Decathlon RR2K - Noir",
+  "titre": "190° - Baskets homme Decathlon RR2K - Noir",
   "url": "https://www.dealabs.com/bons-plans/decathlon-baskets-homme-rr2k-noir-du-39-au-47-3455794",
   "prix": 35.99,
   "prix_txt": "35,99€",
@@ -2586,7 +2624,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/puma-smash-v2-plusoeurs-tailles-et-coloris-3455653",
   "source": "Dealabs",
-  "titre": "111° - Baskets Puma Smash V2 - plusieurs coloris",
+  "titre": "124° - Baskets Puma Smash V2 - plusieurs coloris",
   "url": "https://www.dealabs.com/bons-plans/puma-smash-v2-plusoeurs-tailles-et-coloris-3455653",
   "prix": 27.01,
   "prix_txt": "27,01€",
@@ -4840,25 +4878,6 @@
   "remise": 0,
   "info": "195€ - VeryChic Veepee, en partenariat avec VeryChic, propose des séjours au Sofitel Marseille Vieux-Port 5★ à partir de 195 € par nuit et par chambre (pour 2 p",
   "ajoute": "2026-11-13T02:04:03+00:00",
-  "rang": 5,
-  "categorie": "Autres",
-  "score": 50
- },
- {
-  "id": "dealabs:https://www.dealabs.com/bons-plans/blu-ray-4k-ultra-hd-marty-supreme-edition-collector-limitee-boitier-metal-steelbook-3453575",
-  "source": "Dealabs",
-  "titre": "Blu-ray 4K UHD : Marty Supreme - Édition Collector Limitée Boîtier Métal SteelBook",
-  "url": "https://www.dealabs.com/bons-plans/blu-ray-4k-ultra-hd-marty-supreme-edition-collector-limitee-boitier-metal-steelbook-3453575",
-  "prix": 16.99,
-  "prix_txt": "16,99€",
-  "etat": "Neuf",
-  "vendeur": "Fnac",
-  "note_vendeur": null,
-  "image": "",
-  "alerte": true,
-  "remise": 0,
-  "info": "16,99€ - Fnac Très belle baisse de prix repérée chez Fnac.com (opération « Blu-ray 4K à petits prix ») sur l'édition collector boîtier métallique SteelBook du f",
-  "ajoute": "2026-11-12T21:23:39+00:00",
   "rang": 5,
   "categorie": "Autres",
   "score": 50
