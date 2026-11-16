@@ -2510,7 +2510,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/nike-sportswear-dunk-retro-baskets-basses-blanc-445-a-495-3455615",
   "source": "Dealabs",
-  "titre": "Baskets basses Nike Sportswear Dunk Retro - blanc 44.5 a 49.5",
+  "titre": "128° - Baskets basses Nike Sportswear Dunk Retro - blanc 44.5 a 49.5",
   "url": "https://www.dealabs.com/bons-plans/nike-sportswear-dunk-retro-baskets-basses-blanc-445-a-495-3455615",
   "prix": 51.9,
   "prix_txt": "51,90€",
@@ -3667,25 +3667,6 @@
   "score": 50
  },
  {
-  "id": "dealabs:https://www.dealabs.com/bons-plans/puma-st-runner-v3-nl-chaussure-de-piste-dathletismemixte-enfant-3453762",
-  "source": "Dealabs",
-  "titre": "PUMA St Runner V3 Nl Chaussure de piste d'athlétismeMixte enfant",
-  "url": "https://www.dealabs.com/bons-plans/puma-st-runner-v3-nl-chaussure-de-piste-dathletismemixte-enfant-3453762",
-  "prix": 33.26,
-  "prix_txt": "33,26€",
-  "etat": "Neuf",
-  "vendeur": "Amazon",
-  "note_vendeur": null,
-  "image": "",
-  "alerte": true,
-  "remise": 0,
-  "info": "33,26€ - Amazon Plusieurs tailles dispo À propos de ce produit Baskets Tige en nylon, daim synthétique et accents de cuir Semelle intermédiaire en éthylène-acét",
-  "ajoute": "2026-11-13T05:29:35+00:00",
-  "rang": 1,
-  "categorie": "Chaussures",
-  "score": 50
- },
- {
   "id": "dealabs:https://www.dealabs.com/bons-plans/souffleur-aspirateur-broyeur-filaire-worx-wg505e-3000-w-3-en-1-jusqua-335-kmh-sac-de-45-l-3456112",
   "source": "Dealabs",
   "titre": "Souffleur aspirateur broyeur filaire Worx WG505E - 3000 W, 3 en 1, jusqu'à 335 km/h, sac de 45 L",
@@ -3968,6 +3949,25 @@
   "ajoute": "2026-11-13T22:53:36+00:00",
   "rang": 3,
   "categorie": "High-tech",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/jeu-de-societe-avalon-hill-heroquest-systeme-de-jeu-via-3180-eur-de-remise-au-panier-3456905",
+  "source": "Dealabs",
+  "titre": "Jeu de société Avalon Hill - HeroQuest : système de jeu (via 31,80 € de remise au panier)",
+  "url": "https://www.dealabs.com/bons-plans/jeu-de-societe-avalon-hill-heroquest-systeme-de-jeu-via-3180-eur-de-remise-au-panier-3456905",
+  "prix": 74.19,
+  "prix_txt": "74,19€",
+  "etat": "Neuf",
+  "vendeur": "Cultura",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "74,19€ - Cultura 5% supplémentaires via bourso JEU D'AVENTURE IMMERSIF : HeroQuest est un jeu coopératif où les joueurs collaborent pour combattre des monstres ",
+  "ajoute": "2026-11-16T06:17:27+00:00",
+  "rang": 5,
+  "categorie": "Autres",
   "score": 50
  },
  {
