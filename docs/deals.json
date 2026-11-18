@@ -59,7 +59,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/bonnet-levis-unisex-slouchy-red-tab-beanie-3457036",
   "source": "Dealabs",
-  "titre": "128° - Bonnet Levi's - Slouchy Red Tab Beanie, L-XL",
+  "titre": "133° - Bonnet Levi's - Slouchy Red Tab Beanie, L-XL",
   "url": "https://www.dealabs.com/bons-plans/bonnet-levis-unisex-slouchy-red-tab-beanie-3457036",
   "prix": 9.65,
   "prix_txt": "9,65€",
@@ -2109,25 +2109,6 @@
   "score": 50
  },
  {
-  "id": "dealabs:https://www.dealabs.com/bons-plans/baskets-en-daim-homme-decathlon-rr2k-noir-violet-plusieurs-tailles-disponibles-3455834",
-  "source": "Dealabs",
-  "titre": "136° - Baskets en daim homme Decathlon RR2K - Noir/violet, Plusieurs tailles disponibles",
-  "url": "https://www.dealabs.com/bons-plans/baskets-en-daim-homme-decathlon-rr2k-noir-violet-plusieurs-tailles-disponibles-3455834",
-  "prix": 39.99,
-  "prix_txt": "39,99€",
-  "etat": "Neuf",
-  "vendeur": "Decathlon",
-  "note_vendeur": null,
-  "image": "",
-  "alerte": true,
-  "remise": 0,
-  "info": "39,99€ - Decathlon Des baskets en daim homme RR2K pour un usage en ville, avec un style rétro inspiré du running. Le modèle est dessiné d'après la Kiprun 2000 e",
-  "ajoute": "2026-11-15T04:37:45+00:00",
-  "rang": 1,
-  "categorie": "Chaussures",
-  "score": 50
- },
- {
   "id": "dealabs:https://www.dealabs.com/bons-plans/montre-automatique-certina-ds-x-gmt-41mm-3459506",
   "source": "Dealabs",
   "titre": "Montre automatique Certina DS-X GMT 41mm",
@@ -2581,6 +2562,25 @@
   "ajoute": "2026-11-16T17:19:40+00:00",
   "rang": 4,
   "categorie": "Maison",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/lego-editions-trophee-officiel-de-la-coupe-du-monde-de-la-fifa-43020-lego-3459728",
+  "source": "Dealabs",
+  "titre": "LEGO Editions Trophée Officiel de la Coupe du Monde de la FIFA 43020 LEGO",
+  "url": "https://www.dealabs.com/bons-plans/lego-editions-trophee-officiel-de-la-coupe-du-monde-de-la-fifa-43020-lego-3459728",
+  "prix": 103.99,
+  "prix_txt": "103,99€",
+  "etat": "Neuf",
+  "vendeur": "Carrefour",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "103,99€ - Carrefour Prix de base sur le site lego 179,99€ Prix sur carrefour 129,99€ et une remise fidélité de 20% sur la carte fidélité soit 26€ sur la carte P",
+  "ajoute": "2026-11-18T04:39:07+00:00",
+  "rang": 5,
+  "categorie": "Autres",
   "score": 50
  },
  {
