@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/sweat-paris-saint-germain-fc-paris-saint-germain-fc-3460493",
+  "source": "Dealabs",
+  "titre": "Sweat Paris Saint-Germain F.C. Paris Saint-Germain F.C. - Tailles S à XXL",
+  "url": "https://www.dealabs.com/bons-plans/sweat-paris-saint-germain-fc-paris-saint-germain-fc-3460493",
+  "prix": 21.99,
+  "prix_txt": "21,99€",
+  "etat": "Neuf",
+  "vendeur": "Hollister",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "21,99€ - Hollister Paris Saint-Germain F.C. Paris Saint-Germain F.C. Sweat à capuche en tissu polaire super doux, avec broderie graphique Paris Saint-Germain F.",
+  "ajoute": "2026-11-18T16:26:59+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/veste-tommy-hilfiger-3460285",
   "source": "Dealabs",
   "titre": "Veste Tommy Hilfiger Rembourrée à Capuche et Fond Ouvert - Taille XXL",
@@ -553,7 +572,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/billet-de-train-ouigo-train-classique-de-bordeaux-st-jean-vers-paris-austerlitz-des-13eur-plusieurs-dates-ex-10-janvier-2027-3459385",
   "source": "Dealabs",
-  "titre": "Billet de train OUIGO Train Classique de Bordeaux St-Jean vers Paris Austerlitz dès 13€ - Plusieurs dates Ex : 10 Janvier 2027",
+  "titre": "115° - Billet de train OUIGO Train Classique de Bordeaux St-Jean vers Paris Austerlitz dès 13€ - Plusieurs dates Ex : 10 Janvier 2027",
   "url": "https://www.dealabs.com/bons-plans/billet-de-train-ouigo-train-classique-de-bordeaux-st-jean-vers-paris-austerlitz-des-13eur-plusieurs-dates-ex-10-janvier-2027-3459385",
   "prix": 13.0,
   "prix_txt": "13€",
@@ -563,7 +582,7 @@
   "image": "",
   "alerte": true,
   "remise": 0,
-  "info": "13€ - Trainline pour voyager à petit prix entre le Sud-Ouest et la capitale à bord de l'offre OUIGO Train Classique . La liaison directe reliant la gare de Bord",
+  "info": "13€ - Trainline pour voyager à petit prix entre le Sud-Ouest et la capitale à bord de l'offre OUIGO Train Classique . La liaison directe reliant la gare de <...",
   "ajoute": "2026-11-17T18:58:17+00:00",
   "rang": 0,
   "categorie": "Vêtements",
@@ -2353,6 +2372,25 @@
   "ajoute": "2026-11-16T17:19:40+00:00",
   "rang": 4,
   "categorie": "Maison",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/chaussure-de-running-nike-performance-pegasus-42-du-385-au-495-3459966",
+  "source": "Dealabs",
+  "titre": "118° - Chaussure de running Nike Performance PEGASUS 42 - du 38.5 au 49.5",
+  "url": "https://www.dealabs.com/bons-plans/chaussure-de-running-nike-performance-pegasus-42-du-385-au-495-3459966",
+  "prix": 71.9,
+  "prix_txt": "71,90€",
+  "etat": "Neuf",
+  "vendeur": "Privé by Zalando",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "71,90€ - Privé by Zalando Amorti réactif sur toute la longueur. sculpté pour dynamiser une icône. Amorti réactif et rebond à chaque foulée. La Pegasus 42 est la",
+  "ajoute": "2026-11-18T16:26:59+00:00",
+  "rang": 5,
+  "categorie": "Autres",
   "score": 50
  },
  {
