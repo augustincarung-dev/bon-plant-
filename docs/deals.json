@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/veste-carhartt-duck-detroit-rugged-flex-homme-coton-extensible-387-gm2-coupe-detendue-poches-zippees-3457032",
+  "source": "Dealabs",
+  "titre": "117° - Veste Carhartt Duck Detroit Rugged Flex homme – Coton extensible 387 g/m², coupe détendue, poches zippées",
+  "url": "https://www.dealabs.com/bons-plans/veste-carhartt-duck-detroit-rugged-flex-homme-coton-extensible-387-gm2-coupe-detendue-poches-zippees-3457032",
+  "prix": 119.0,
+  "prix_txt": "119€",
+  "etat": "Neuf",
+  "vendeur": "Motoin",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "119€ - Motoin Cette veste Carhartt Duck Detroit Rugged Flex associe une toile Duck souple et extensible de 387 g/m² à une coupe décontractée qui facilite les mo",
+  "ajoute": "2026-11-18T06:38:27+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/levis-jean-pour-homme-501-original-avec-patte-de-boutonnage-coupe-droite-3459708",
   "source": "Dealabs",
   "titre": "Levi's Jean pour Homme 501 Original avec Patte de Boutonnage, Coupe Droite",
@@ -249,7 +268,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/jean-straight-made-in-france-brut-tailles-du-34-au-46-3459380",
   "source": "Dealabs",
-  "titre": "108° - Jean straight brut - tailles du 34 au 46",
+  "titre": "145° - Jean straight brut - tailles du 34 au 46",
   "url": "https://www.dealabs.com/bons-plans/jean-straight-made-in-france-brut-tailles-du-34-au-46-3459380",
   "prix": 25.0,
   "prix_txt": "25€",
@@ -1327,6 +1346,25 @@
   "ajoute": "2026-11-15T07:27:26+00:00",
   "rang": 0,
   "categorie": "Vêtements",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/asics-gel-1130-baskets-blanc-3459750",
+  "source": "Dealabs",
+  "titre": "ASICS GEL-1130 - Baskets | Blanc",
+  "url": "https://www.dealabs.com/bons-plans/asics-gel-1130-baskets-blanc-3459750",
+  "prix": 60.0,
+  "prix_txt": "60€",
+  "etat": "Neuf",
+  "vendeur": "Citadium",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "60€ - Citadium Très belle affaire pour cette paire très confortable ! Encore plusieurs tailles dispo. Optimisation avec un code StudenBeans ou Unidays : -10% Pr",
+  "ajoute": "2026-11-18T06:38:27+00:00",
+  "rang": 1,
+  "categorie": "Chaussures",
   "score": 50
  },
  {
@@ -2562,6 +2600,25 @@
   "ajoute": "2026-11-16T17:19:40+00:00",
   "rang": 4,
   "categorie": "Maison",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/pelleteuse-volvo-ec500-hybride-lego-technic-42215-via-7250eur-de-fidelite-3459767",
+  "source": "Dealabs",
+  "titre": "Pelleteuse Volvo EC500 hybride LEGO Technic 42215 (via 72.50€ de fidélité)",
+  "url": "https://www.dealabs.com/bons-plans/pelleteuse-volvo-ec500-hybride-lego-technic-42215-via-7250eur-de-fidelite-3459767",
+  "prix": 217.49,
+  "prix_txt": "217,49€",
+  "etat": "Neuf",
+  "vendeur": "E.Leclerc",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "217,49€ - E.Leclerc Set retiré en décembre, et un bon prix pour les intéressés ! A 399.99 € chez LEGO Plongez dans un projet de construction immersif en recréan",
+  "ajoute": "2026-11-18T06:38:27+00:00",
+  "rang": 5,
+  "categorie": "Autres",
   "score": 50
  },
  {
