@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/membre-via-app-10-sur-une-selection-darticles-deja-soldes-pantalon-slim-fusele-levis-xx-chino-taille-28-a-40-et-longueur-30-a-34-3461951",
+  "source": "Dealabs",
+  "titre": "147° - [Membre / Via App] 10% de remise sur une sélection d'articles - Ex : Pantalon Slim Fuselé Levi's XX Chino, Tailles du 28 au 40, Noir ou Kaki",
+  "url": "https://www.dealabs.com/bons-plans/membre-via-app-10-sur-une-selection-darticles-deja-soldes-pantalon-slim-fusele-levis-xx-chino-taille-28-a-40-et-longueur-30-a-34-3461951",
+  "prix": 36.0,
+  "prix_txt": "36€",
+  "etat": "Neuf",
+  "vendeur": "Levi's",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "36€ - Levi's Black Friday Levi's – Jusqu'à -50 % + 10 % supplémentaires sur l'application Lien : <a href=\"https://www.levi.com/FR/fr_FR/bl...",
+  "ajoute": "2026-11-19T19:24:03+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/veste-de-securite-pour-poule-3462278",
   "source": "Dealabs",
   "titre": "389° - Veste de sécurité pour poule",
@@ -1579,7 +1598,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/baskets-air-jordan-3-retro-true-blue-tailles-41-au-46-3461888",
   "source": "Dealabs",
-  "titre": "Baskets Air Jordan 3 Retro \"True Blue\"\" - Tailles 41 au 46",
+  "titre": "153° - [Snipes Club] Baskets Air Jordan 3 Retro True Blue - Tailles 41 au 46",
   "url": "https://www.dealabs.com/bons-plans/baskets-air-jordan-3-retro-true-blue-tailles-41-au-46-3461888",
   "prix": 99.75,
   "prix_txt": "99,75€",
@@ -1589,7 +1608,7 @@
   "image": "",
   "alerte": true,
   "remise": 0,
-  "info": "99,75€ - Snipes Prix le plus bas constaté récemment pour ce modèle classique. Modell : Air Jordan 3 Retro Style:Basketball, High, Retro Semelle extérieure : Cao",
+  "info": "99,75€ - Snipes Prix le plus bas constaté récemment pour ce modèle classique. Modell : Air Jordan 3 Retro Style:Basketball, High, Retro ...",
   "ajoute": "2026-11-19T12:25:53+00:00",
   "rang": 1,
   "categorie": "Chaussures",
