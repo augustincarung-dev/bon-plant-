@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/veste-de-pluie-ville-btwin-visibilite-nuit-540-noir-ou-vert-taille-s-au-2xl-3461121",
+  "source": "Dealabs",
+  "titre": "Veste de pluie ville Btwin visibilité nuit 540 noir ou vert - taille S au 2XL",
+  "url": "https://www.dealabs.com/bons-plans/veste-de-pluie-ville-btwin-visibilite-nuit-540-noir-ou-vert-taille-s-au-2xl-3461121",
+  "prix": 49.99,
+  "prix_txt": "49,99€",
+  "etat": "Neuf",
+  "vendeur": "Decathlon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "49,99€ - Decathlon Veste de pluie vélo ville BTWIN 540 – Homme – Noir Roulez par tous les temps tout en restant visible et protégé avec la veste BTWIN 540 ! Spé",
+  "ajoute": "2026-11-19T04:41:41+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/bonnet-carhartt-knit-cuffed-beanie-noir-taille-unique-3461073",
   "source": "Dealabs",
   "titre": "Bonnet Carhartt Knit Cuffed Beanie - Noir (Taille unique)",
@@ -1178,9 +1197,28 @@
   "score": 50
  },
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/selection-de-jordan-spizike-low-chaussure-pour-homme-du-36-au-51-3461125",
+  "source": "Dealabs",
+  "titre": "Sélection de Jordan Spizike Low Chaussure pour homme du 36 au 51",
+  "url": "https://www.dealabs.com/bons-plans/selection-de-jordan-spizike-low-chaussure-pour-homme-du-36-au-51-3461125",
+  "prix": 101.99,
+  "prix_txt": "101,99€",
+  "etat": "Neuf",
+  "vendeur": "Nike",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "101,99€ - Nike La Spizike reprend et combine des éléments de cinq Jordan cultes pour créer une sneaker iconique. Elle rend hommage à Spike Lee qui a fait entrer",
+  "ajoute": "2026-11-19T04:41:41+00:00",
+  "rang": 1,
+  "categorie": "Chaussures",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/selection-de-maillot-de-basket-nike-dri-fit-nba-ex-chicago-bulls-icon-edition-taille-xs-a-3xl-3459965",
   "source": "Dealabs",
-  "titre": "114° - Sélection de maillot de basket Nike Dri-FIT NBA - ex Chicago Bulls Icon Edition, taille XS à 3XL",
+  "titre": "129° - Sélection de maillot de basket Nike Dri-FIT NBA - ex Chicago Bulls Icon Edition, taille XS à 3XL",
   "url": "https://www.dealabs.com/bons-plans/selection-de-maillot-de-basket-nike-dri-fit-nba-ex-chicago-bulls-icon-edition-taille-xs-a-3xl-3459965",
   "prix": 62.99,
   "prix_txt": "62,99€",
@@ -1484,7 +1522,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/nike-air-max-plus-vii-3460637",
   "source": "Dealabs",
-  "titre": "Chaussures Nike Air Max Plus VII",
+  "titre": "105° - Chaussures Nike Air Max Plus VII",
   "url": "https://www.dealabs.com/bons-plans/nike-air-max-plus-vii-3460637",
   "prix": 94.99,
   "prix_txt": "94,99€",
