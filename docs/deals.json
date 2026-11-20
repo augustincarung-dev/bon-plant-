@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/casquette-de-baseball-levis-classic-100-coton-bleu-marine-taille-unique-3463406",
+  "source": "Dealabs",
+  "titre": "Casquette de Baseball Levi's Classic 100% Coton - Bleu marine (taille unique)",
+  "url": "https://www.dealabs.com/bons-plans/casquette-de-baseball-levis-classic-100-coton-bleu-marine-taille-unique-3463406",
+  "prix": 9.09,
+  "prix_txt": "9,09€",
+  "etat": "Neuf",
+  "vendeur": "Amazon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "9,09€ - Amazon Bon prix ! :) Description : 100% Coton DESIGN CLASSIQUE LEVI'S: Une casquette de baseball classique qui est l'équilibre parfait de simplicitéAvec",
+  "ajoute": "2026-11-20T14:33:48+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/charles-tyrwhitt-manteau-long-a-col-cheminee-100-laine-merinos-extra-fine-3463329",
   "source": "Dealabs",
   "titre": "Manteau Long à Col Cheminée - 100% Laine, Mérinos, Extra-Fine, Tailles du 91R au 122R",
@@ -211,7 +230,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/30-de-remise-supplementaire-sur-les-jouets-promotions-incluses-ex-lego-speed-champions-77255-flash-mcqueen-via-9eur-sur-carte-fidelite-3462762",
   "source": "Dealabs",
-  "titre": "128° - 30% de remise supplémentaire sur les jouets - Ex : Lego Speed Champions 77255 Flash McQueen (Via 9€ sur la Carte de Fidélité)",
+  "titre": "140° - 30% de remise supplémentaire sur les jouets - Ex : Lego Speed Champions 77255 Flash McQueen (Via 9€ sur la Carte de Fidélité)",
   "url": "https://www.dealabs.com/bons-plans/30-de-remise-supplementaire-sur-les-jouets-promotions-incluses-ex-lego-speed-champions-77255-flash-mcqueen-via-9eur-sur-carte-fidelite-3462762",
   "prix": 10.99,
   "prix_txt": "10,99€",
@@ -1444,6 +1463,25 @@
   "score": 50
  },
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/sneakers-asics-gel-cumulus-16-airy-blue-glacier-grey-a-7995-eur-50-36-a-405-3463404",
+  "source": "Dealabs",
+  "titre": "Sneakers Asics Gel-Cumulus 16 Airy Blue / Glacier Grey - Du 36 au 40.5 (hylton.fr)",
+  "url": "https://www.dealabs.com/bons-plans/sneakers-asics-gel-cumulus-16-airy-blue-glacier-grey-a-7995-eur-50-36-a-405-3463404",
+  "prix": 79.95,
+  "prix_txt": "79,95€",
+  "etat": "Neuf",
+  "vendeur": "",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "79,95€ Petit bon plan pour celles qui aiment les sneakers Les ASICS Gel-Cumulus 16 sont à 79,95 € au lieu de 159,90 €, soit -50 % ! J'adore le coloris bleu et g",
+  "ajoute": "2026-11-20T14:33:48+00:00",
+  "rang": 1,
+  "categorie": "Chaussures",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/chaussures-nike-jordan-spizike-low-divers-coloris-tailles-36-au-52-3463314",
   "source": "Dealabs",
   "titre": "Chaussures Nike Jordan Spizike Low - Divers coloris, tailles 36 au 52",
@@ -2282,7 +2320,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/salomon-active-skin-8-set-tahitian-tide-carbon-taille-xs-s-l-3461020",
   "source": "Dealabs",
-  "titre": "Sac Salomon Active Skin 8 Set Tahitian Tide Carbon - taille XS, S, L",
+  "titre": "119° - Sac Salomon Active Skin 8 Set Tahitian Tide Carbon - taille XS, S, L",
   "url": "https://www.dealabs.com/bons-plans/salomon-active-skin-8-set-tahitian-tide-carbon-taille-xs-s-l-3461020",
   "prix": 48.3,
   "prix_txt": "48,30€",
@@ -3151,6 +3189,25 @@
   "ajoute": "2026-11-19T13:44:37+00:00",
   "rang": 4,
   "categorie": "Maison",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/mitigeur-de-lavabo-grohe-eurostyle-s-3463381",
+  "source": "Dealabs",
+  "titre": "Mitigeur de lavabo Grohe Eurostyle - Monocommande, 1/2\", Taille S",
+  "url": "https://www.dealabs.com/bons-plans/mitigeur-de-lavabo-grohe-eurostyle-s-3463381",
+  "prix": 34.95,
+  "prix_txt": "34,95€",
+  "etat": "Neuf",
+  "vendeur": "iBOOD",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "34,95€ - iBOOD Un design réussi ne se remarque pas seulement dans la salle de bains. Mais aussi chaque matin, en se lavant les mains! La série Grohe Eurostyle a",
+  "ajoute": "2026-11-20T14:33:48+00:00",
+  "rang": 5,
+  "categorie": "Autres",
   "score": 50
  },
  {
