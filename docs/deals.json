@@ -344,7 +344,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/jean-levis-511-slim-homme-stretch-tailles-du-31-au-38-us-3461859",
   "source": "Dealabs",
-  "titre": "128° - Jean Levi’s 511 slim homme stretch - tailles du 31 au 38 US",
+  "titre": "135° - Jean Levi’s 511 slim homme stretch - tailles du 31 au 38 US",
   "url": "https://www.dealabs.com/bons-plans/jean-levis-511-slim-homme-stretch-tailles-du-31-au-38-us-3461859",
   "prix": 39.0,
   "prix_txt": "39€",
@@ -1406,6 +1406,25 @@
   "score": 50
  },
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/baskets-nike-air-jordan-7-rm-taille-du-405-au-45-3462328",
+  "source": "Dealabs",
+  "titre": "103° - Baskets Nike air Jordan 7 RM - Tailles 40.5, 41, 44.5 & 45",
+  "url": "https://www.dealabs.com/bons-plans/baskets-nike-air-jordan-7-rm-taille-du-405-au-45-3462328",
+  "prix": 49.9,
+  "prix_txt": "49,90€",
+  "etat": "Neuf",
+  "vendeur": "Veepee",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "49,90€ - Veepee https://www.veepee.fr/gr/product/916169/103575796",
+  "ajoute": "2026-11-20T05:35:46+00:00",
+  "rang": 1,
+  "categorie": "Chaussures",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/sneakers-jordan-spizike-low-en-cuir-tailles-375-38-et-385-3462666",
   "source": "Dealabs",
   "titre": "Sneakers enfant Jordan Spizike Low en Cuir - Tailles 37.5, 38 et 38.5",
@@ -1598,7 +1617,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/10-supplementaires-des-60-eur-sur-une-selection-de-chaussures-de-running-homme-ex-asics-gel-nimbus-28-3462319",
   "source": "Dealabs",
-  "titre": "123° - Sélection de chaussures de running homme en promotion. Ex : Asics Gel Nimbus 28 - Du 40 au 46,5",
+  "titre": "126° - Sélection de chaussures de running homme en promotion. Ex : Asics Gel Nimbus 28 - Du 40 au 46,5",
   "url": "https://www.dealabs.com/bons-plans/10-supplementaires-des-60-eur-sur-une-selection-de-chaussures-de-running-homme-ex-asics-gel-nimbus-28-3462319",
   "prix": 107.95,
   "prix_txt": "107,95€",
@@ -1617,7 +1636,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/baskets-nike-air-jordan-1-low-se-du-355-au-47-3462256",
   "source": "Dealabs",
-  "titre": "131° - Baskets Nike Air Jordan 1 Low SE - du 35.5 au 47",
+  "titre": "135° - Baskets Nike Air Jordan 1 Low SE - du 35.5 au 47",
   "url": "https://www.dealabs.com/bons-plans/baskets-nike-air-jordan-1-low-se-du-355-au-47-3462256",
   "prix": 58.9,
   "prix_txt": "58,90€",
@@ -1636,7 +1655,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/asics-sportstyle-gel-1130-unisex-baskets-basses-plusieurs-coloris-du-37-au-49-3462185",
   "source": "Dealabs",
-  "titre": "Baskets basses Asics SportStyle GEL-1130 Unisex - Plusieurs Coloris, Tailles du 37 au 49",
+  "titre": "102° - Baskets basses Asics SportStyle GEL-1130 Unisex - Plusieurs Coloris, Tailles du 37 au 49",
   "url": "https://www.dealabs.com/bons-plans/asics-sportstyle-gel-1130-unisex-baskets-basses-plusieurs-coloris-du-37-au-49-3462185",
   "prix": 46.9,
   "prix_txt": "46,90€",
@@ -2320,7 +2339,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/chaussure-nike-air-max-90-golf-du-365-au-505-3459831",
   "source": "Dealabs",
-  "titre": "114° - Chaussure Nike Air Max 90 Golf Blanc/Photon Dust/Midnight Navy/Fire Red imperméable - Tailles du 36.5 au 50.5",
+  "titre": "118° - Chaussure Nike Air Max 90 Golf Blanc/Photon Dust/Midnight Navy/Fire Red imperméable - Tailles du 36.5 au 50.5",
   "url": "https://www.dealabs.com/bons-plans/chaussure-nike-air-max-90-golf-du-365-au-505-3459831",
   "prix": 68.9,
   "prix_txt": "68,90€",
@@ -2828,6 +2847,25 @@
   "ajoute": "2026-11-17T06:12:43+00:00",
   "rang": 3,
   "categorie": "High-tech",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/aspirateur-eau-et-poussieres-karcher-kwd-3-s-v-17420f-cuve-inox-17l-1000w-fonction-soufflerie-3462714",
+  "source": "Dealabs",
+  "titre": "Aspirateur eau et poussières Karcher KWD 3 S V-17/4/20/F - Cuve inox, 17L, 1000W, Fonction Soufflerie",
+  "url": "https://www.dealabs.com/bons-plans/aspirateur-eau-et-poussieres-karcher-kwd-3-s-v-17420f-cuve-inox-17l-1000w-fonction-soufflerie-3462714",
+  "prix": 54.0,
+  "prix_txt": "54€",
+  "etat": "Neuf",
+  "vendeur": "E.Leclerc",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "54€ - E.Leclerc Excellent tarif, 15€ de moins que le dernier deal (cf dernier deal ) pour un aspi eau et poussière à cuve inox Karcher, 69€ correspond à la dern",
+  "ajoute": "2026-11-20T05:35:46+00:00",
+  "rang": 4,
+  "categorie": "Maison",
   "score": 50
  },
  {
