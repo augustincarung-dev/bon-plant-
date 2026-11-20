@@ -2320,7 +2320,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/salomon-active-skin-8-set-tahitian-tide-carbon-taille-xs-s-l-3461020",
   "source": "Dealabs",
-  "titre": "119° - Sac Salomon Active Skin 8 Set Tahitian Tide Carbon - taille XS, S, L",
+  "titre": "154° - Sac Salomon Active Skin 8 Set Tahitian Tide Carbon - taille XS, S, L",
   "url": "https://www.dealabs.com/bons-plans/salomon-active-skin-8-set-tahitian-tide-carbon-taille-xs-s-l-3461020",
   "prix": 48.3,
   "prix_txt": "48,30€",
@@ -2907,25 +2907,6 @@
   "score": 50
  },
  {
-  "id": "dealabs:https://www.dealabs.com/bons-plans/skechers-graceful-get-conne-sneakers-basses-femme-3459134",
-  "source": "Dealabs",
-  "titre": "Baskets Skechers Graceful Get Conne - Taille 40",
-  "url": "https://www.dealabs.com/bons-plans/skechers-graceful-get-conne-sneakers-basses-femme-3459134",
-  "prix": 36.95,
-  "prix_txt": "36,95€",
-  "etat": "Neuf",
-  "vendeur": "Amazon",
-  "note_vendeur": null,
-  "image": "",
-  "alerte": true,
-  "remise": 0,
-  "info": "36,95€ - Amazon Tailles 35 à 42 • Empeigne en mesh noir • Finitions rose gold • Fermeture à lacets • Semelle intérieure en mousse à mémoire de forme • Modèle in",
-  "ajoute": "2026-11-17T15:16:42+00:00",
-  "rang": 1,
-  "categorie": "Chaussures",
-  "score": 50
- },
- {
   "id": "dealabs:https://www.dealabs.com/bons-plans/bonnet-pour-homme-et-femme-bonnet-chaud-unisexe-hamuni-3462837",
   "source": "Dealabs",
   "titre": "Bonnet pour homme et femme Bonnet chaud unisexe HAMUNI",
@@ -3151,6 +3132,25 @@
   "ajoute": "2026-11-18T02:02:29+00:00",
   "rang": 3,
   "categorie": "High-tech",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/robot-patissier-professionnel-kitchenaid-66-l-a-relevage-de-bol-rouge-empire-ou-blanc-3463453",
+  "source": "Dealabs",
+  "titre": "Robot Pâtissier Professionnel KitchenAid 6,6 L à relevage de bol (Rouge Empire ou Blanc)",
+  "url": "https://www.dealabs.com/bons-plans/robot-patissier-professionnel-kitchenaid-66-l-a-relevage-de-bol-rouge-empire-ou-blanc-3463453",
+  "prix": 479.99,
+  "prix_txt": "479,99€",
+  "etat": "Neuf",
+  "vendeur": "Amazon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "479,99€ - Amazon Belle offre Black Friday chez Amazon sur le robot pâtissier professionnel KitchenAid Heavy Duty 6,6 L à relevage de bol (série 5KSM70JPX), prop",
+  "ajoute": "2026-11-20T15:28:09+00:00",
+  "rang": 4,
+  "categorie": "Maison",
   "score": 50
  },
  {
