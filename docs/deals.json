@@ -1522,7 +1522,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/baskets-jordan-spizike-low-utility-tailles-355-a-525-3463803",
   "source": "Dealabs",
-  "titre": "116° - Baskets Jordan Spizike Low Utility - tailles 35,5 à 52,5",
+  "titre": "119° - Baskets Jordan Spizike Low Utility - tailles 35,5 à 52,5",
   "url": "https://www.dealabs.com/bons-plans/baskets-jordan-spizike-low-utility-tailles-355-a-525-3463803",
   "prix": 89.99,
   "prix_txt": "89,99€",
@@ -1978,7 +1978,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/baskets-nike-air-jordan-3-sport-blue-og-tailles-du-355-au-39-3462766",
   "source": "Dealabs",
-  "titre": "124° - Baskets Nike Air Jordan 3 Retro sport blue OG - Tailles du 35,5 au 39",
+  "titre": "127° - Baskets Nike Air Jordan 3 Retro sport blue OG - Tailles du 35,5 au 39",
   "url": "https://www.dealabs.com/bons-plans/baskets-nike-air-jordan-3-sport-blue-og-tailles-du-355-au-39-3462766",
   "prix": 67.0,
   "prix_txt": "67€",
@@ -3097,6 +3097,25 @@
   "score": 50
  },
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/sac-lidl-offert-des-50eur-dachat-en-magasin-uniquement-le-26112026-3464045",
+  "source": "Dealabs",
+  "titre": "Sac Lidl offert dès 50€ d'achat en magasin uniquement le 26/11/2026",
+  "url": "https://www.dealabs.com/bons-plans/sac-lidl-offert-des-50eur-dachat-en-magasin-uniquement-le-26112026-3464045",
+  "prix": null,
+  "prix_txt": "",
+  "etat": "Neuf",
+  "vendeur": "Lidl",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "Lidl Nouveau Pay Per View après la Wrestlemania place à MONEY IN THE BANK – ÉDITION LIDL ! Offre nationale, disponible dans tous les magasins Lidl. Qui sera le ",
+  "ajoute": "2026-11-21T06:01:56+00:00",
+  "rang": 2,
+  "categorie": "Sacs et accessoires",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/bonnet-pour-homme-et-femme-bonnet-chaud-unisexe-hamuni-3462837",
   "source": "Dealabs",
   "titre": "Bonnet pour homme et femme Bonnet chaud unisexe HAMUNI",
@@ -3384,7 +3403,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/lot-de-6-paires-de-chaussettes-nike-tailles-35-a-495-3463805",
   "source": "Dealabs",
-  "titre": "120° - Lot de 6 paires de chaussettes Nike - tailles 35 à 49,5",
+  "titre": "118° - Lot de 6 paires de chaussettes Nike - tailles 35 à 49,5",
   "url": "https://www.dealabs.com/bons-plans/lot-de-6-paires-de-chaussettes-nike-tailles-35-a-495-3463805",
   "prix": 14.99,
   "prix_txt": "14,99€",
