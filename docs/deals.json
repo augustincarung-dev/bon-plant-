@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/karl-lagerfeld-sweat-en-coton-biologique-noir-3465615",
+  "source": "Dealabs",
+  "titre": "Sweat en coton biologique Karl Lagerfeld - Noir",
+  "url": "https://www.dealabs.com/bons-plans/karl-lagerfeld-sweat-en-coton-biologique-noir-3465615",
+  "prix": 41.9,
+  "prix_txt": "41,90€",
+  "etat": "Neuf",
+  "vendeur": "Showroomprivé",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "41,90€ - Showroomprivé Sweat en coton biologique . Col rond. Manches longues. Logo devant. Coloris : noir, blanc et ciel Matière : 100% coton biologique",
+  "ajoute": "2026-11-22T20:15:58+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/napapijri-parka-a-diries-homme-3465534",
   "source": "Dealabs",
   "titre": "Parka Napapijri A-Diries Homme",
@@ -325,7 +344,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/levis-pull-col-rond-marron-taille-s-a-l-3464964",
   "source": "Dealabs",
-  "titre": "Levi's Pull col rond - coloris marron, taille S à L",
+  "titre": "144° - Levi's Pull col rond - coloris marron, taille S à L",
   "url": "https://www.dealabs.com/bons-plans/levis-pull-col-rond-marron-taille-s-a-l-3464964",
   "prix": 34.0,
   "prix_txt": "34€",
@@ -1384,6 +1403,25 @@
   "ajoute": "2026-11-19T20:21:38+00:00",
   "rang": 0,
   "categorie": "Vêtements",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/nike-reax-8-tr-chaussure-dentrainement-pour-homme-5699-eur-9499-eur-40-de-reduction-offre-pour-les-black-friday-days-de-nike-3465597",
+  "source": "Dealabs",
+  "titre": "Baskets Nike Reax 8 TR",
+  "url": "https://www.dealabs.com/bons-plans/nike-reax-8-tr-chaussure-dentrainement-pour-homme-5699-eur-9499-eur-40-de-reduction-offre-pour-les-black-friday-days-de-nike-3465597",
+  "prix": 56.99,
+  "prix_txt": "56,99€",
+  "etat": "Neuf",
+  "vendeur": "Nike",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "56,99€ - Nike • Chaussure d’entraînement pour homme Nike Reax 8 TR Chaussure d'entraînement pour homme 56,99 € 94,99 € 40 % de réduction Offre pour les Black Fr",
+  "ajoute": "2026-11-22T20:15:58+00:00",
+  "rang": 1,
+  "categorie": "Chaussures",
   "score": 50
  },
  {
@@ -3664,6 +3702,25 @@
   "ajoute": "2026-11-20T05:35:46+00:00",
   "rang": 4,
   "categorie": "Maison",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/membres-mymotoblouz-support-smartphone-quad-lock-360-3465605",
+  "source": "Dealabs",
+  "titre": "[Membres MyMotoblouz] Support Smartphone Quad Lock 360",
+  "url": "https://www.dealabs.com/bons-plans/membres-mymotoblouz-support-smartphone-quad-lock-360-3465605",
+  "prix": 30.95,
+  "prix_txt": "30,95€",
+  "etat": "Neuf",
+  "vendeur": "Motoblouz",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "30,95€ - Motoblouz L'adhésion au club My Motoblouz est gratuite (c'est simplement le programme fidélité) : Vous retrouvez le code sur la page du produit directe",
+  "ajoute": "2026-11-22T20:15:58+00:00",
+  "rang": 5,
+  "categorie": "Autres",
   "score": 50
  },
  {
