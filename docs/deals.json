@@ -1465,7 +1465,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/chaussures-converse-cl98-grises-taille-38-45-3465565",
   "source": "Dealabs",
-  "titre": "Chaussures Converse CL98 grises - Taille 38-45",
+  "titre": "117° - Chaussures Converse CL98 grises - Taille 38-45",
   "url": "https://www.dealabs.com/bons-plans/chaussures-converse-cl98-grises-taille-38-45-3465565",
   "prix": 30.0,
   "prix_txt": "30€",
@@ -1475,7 +1475,7 @@
   "image": "",
   "alerte": true,
   "remise": 0,
-  "info": "30€ - The Village Outlet Détails du produit: Couleurs : Dahlia Dust, noir et gum Semelle intérieure rembourrée Semelle extérieure en caoutchouc antidérapante",
+  "info": "30€ - The Village Outlet Détails du produit: Couleurs : Dahlia Dust, noir et gum Semelle intérieure rembourrée</...",
   "ajoute": "2026-11-22T19:29:31+00:00",
   "rang": 1,
   "categorie": "Chaussures",
@@ -2225,7 +2225,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/chaussures-nike-air-force-1-low-electric-green-tailles-405-42-445-45-ou-455-3464653",
   "source": "Dealabs",
-  "titre": "112° - Chaussures Nike x Kobe Bryant Air Force 1 Low - Electric Green, Tailles 40,5, 42, 44,5, 45 ou 45,5",
+  "titre": "115° - Chaussures Nike x Kobe Bryant Air Force 1 Low - Electric Green, Tailles 40,5, 42, 44,5, 45 ou 45,5",
   "url": "https://www.dealabs.com/bons-plans/chaussures-nike-air-force-1-low-electric-green-tailles-405-42-445-45-ou-455-3464653",
   "prix": 67.0,
   "prix_txt": "67€",
@@ -3588,6 +3588,25 @@
   "ajoute": "2026-11-20T05:35:46+00:00",
   "rang": 4,
   "categorie": "Maison",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/nike-court-vision-low-next-nature-a-partir-de-4799-eur-3465817",
+  "source": "Dealabs",
+  "titre": "Nike Court Vision Low Next Nature à partir de 47,99 €",
+  "url": "https://www.dealabs.com/bons-plans/nike-court-vision-low-next-nature-a-partir-de-4799-eur-3465817",
+  "prix": 47.99,
+  "prix_txt": "47,99€",
+  "etat": "Neuf",
+  "vendeur": "Nike",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "47,99€ - Nike La Nike Court Vision Low Next Nature pour femme est à 47,99 € au lieu de 79,99 € , soit 40 % de réduction , dans le cadre des Black Friday Days su",
+  "ajoute": "2026-11-23T04:43:07+00:00",
+  "rang": 5,
+  "categorie": "Autres",
   "score": 50
  },
  {
