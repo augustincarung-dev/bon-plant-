@@ -1693,7 +1693,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/nike-zoom-vomero-5-noirnoir-3467742",
   "source": "Dealabs",
-  "titre": "115° - Baskets homme Nike Zoom Vomero 5 Noir/Noir",
+  "titre": "127° - Baskets homme Nike Zoom Vomero 5 Noir/Noir",
   "url": "https://www.dealabs.com/bons-plans/nike-zoom-vomero-5-noirnoir-3467742",
   "prix": 79.99,
   "prix_txt": "79,99€",
@@ -2774,25 +2774,6 @@
   "score": 50
  },
  {
-  "id": "dealabs:https://www.dealabs.com/bons-plans/asics-gel-nyc-20-du-415-au-46-3464954",
-  "source": "Dealabs",
-  "titre": "Asics gel NYC 2.0 du 41.5 au 46",
-  "url": "https://www.dealabs.com/bons-plans/asics-gel-nyc-20-du-415-au-46-3464954",
-  "prix": 62.39,
-  "prix_txt": "62,39€",
-  "etat": "Neuf",
-  "vendeur": "Solebox",
-  "note_vendeur": null,
-  "image": "",
-  "alerte": true,
-  "remise": 0,
-  "info": "62,39€ - Solebox Description L’ASICS GEL-NYC 2.0 associe une esthétique running rétro à une technologie de amorti moderne et une silhouette bien définie. Ce mod",
-  "ajoute": "2026-11-22T06:30:05+00:00",
-  "rang": 1,
-  "categorie": "Chaussures",
-  "score": 50
- },
- {
   "id": "dealabs:https://www.dealabs.com/bons-plans/bonnet-columbia-whirlibird-noir-3468393",
   "source": "Dealabs",
   "titre": "Bonnet Columbia Whirlibird noir",
@@ -2945,6 +2926,25 @@
   "score": 50
  },
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/casque-gaming-sans-fil-steelseries-arctis-nova-pro-pc-ps5-ps4-switch-3468470",
+  "source": "Dealabs",
+  "titre": "Casque gaming sans fil SteelSeries Arctis Nova Pro – PC, PS5, PS4, Switch",
+  "url": "https://www.dealabs.com/bons-plans/casque-gaming-sans-fil-steelseries-arctis-nova-pro-pc-ps5-ps4-switch-3468470",
+  "prix": 219.99,
+  "prix_txt": "219,99€",
+  "etat": "Neuf",
+  "vendeur": "Amazon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "219,99€ - Amazon COMPATIBILITÉ MULTI-SYSTÈMES – Connectez deux systèmes simultanément et basculez facilement entre PC, PlayStation, Switch ou Mac avec un seul b",
+  "ajoute": "2026-11-25T06:35:33+00:00",
+  "rang": 3,
+  "categorie": "High-tech",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/mini-pc-firebat-r3-ryzen-5-7430u-16-go-de-lpddr4-ssd-512-go-wifi6-bt-52-windows-11-3468287",
   "source": "Dealabs",
   "titre": "Mini PC Firebat R3, Ryzen 5 7430U, 16 Go de LPDDR4, SSD 512 Go, WiFi6 & BT 5.2, Windows 11",
@@ -3094,6 +3094,25 @@
   "ajoute": "2026-11-23T13:51:34+00:00",
   "rang": 4,
   "categorie": "Maison",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/four-a-pyrolyse-connecte-electrolux-eod6p56wh-72l-fonction-vapeur-steambake-rails-telescopiques-porte-froide-classe-a-3468463",
+  "source": "Dealabs",
+  "titre": "Four à Pyrolyse Connecté Electrolux EOD6P56WH - 72L, Fonction Vapeur SteamBake, Rails Télescopiques, Porte Froide, Classe A+",
+  "url": "https://www.dealabs.com/bons-plans/four-a-pyrolyse-connecte-electrolux-eod6p56wh-72l-fonction-vapeur-steambake-rails-telescopiques-porte-froide-classe-a-3468463",
+  "prix": 449.99,
+  "prix_txt": "449,99€",
+  "etat": "Neuf",
+  "vendeur": "Darty",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "449,99€ - Darty Promo sur ce four à Pyrolyse Electrolux Steambake avec rails télescopiques > Livraison et installation gratuites Caractéristiques Type d'apparei",
+  "ajoute": "2026-11-25T06:35:33+00:00",
+  "rang": 5,
+  "categorie": "Autres",
   "score": 50
  },
  {
