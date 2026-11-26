@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/pepe-jean-cadh-3468260",
+  "source": "Dealabs",
+  "titre": "108° - Jeans Pepe Jeans Straight Cash Men's Straight",
+  "url": "https://www.dealabs.com/bons-plans/pepe-jean-cadh-3468260",
+  "prix": 26.95,
+  "prix_txt": "26,95€",
+  "etat": "Neuf",
+  "vendeur": "Amazon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "26,95€ - Amazon Plusieurs tailles et couleurs À propos de ce produit Cette coupe facile au niveau des cuisses et une jambe droite est un véri...",
+  "ajoute": "2026-11-26T15:44:46+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/sweat-zippe-lacoste-ultra-dry-stretch-pour-homme-noir-et-vert-coupe-slim-du-s-au-xl-3470342",
   "source": "Dealabs",
   "titre": "Sweat Zippé Lacoste Ultra Dry Stretch pour homme - Noir et vert, coupe slim, du S au L",
@@ -1199,7 +1218,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/selection-darticles-new-balance-en-promotion-ex-chaussures-204l-femme-plusieurs-couleurs-du-36-au-45-3469752",
   "source": "Dealabs",
-  "titre": "120° - Sélection d'articles New Balance en promotion - Ex : Chaussures 204L Femme - Plusieurs couleurs (du 36 au 45)",
+  "titre": "175° - Sélection d'articles New Balance en promotion - Ex : Chaussures 204L Femme - Plusieurs couleurs (du 36 au 45)",
   "url": "https://www.dealabs.com/bons-plans/selection-darticles-new-balance-en-promotion-ex-chaussures-204l-femme-plusieurs-couleurs-du-36-au-45-3469752",
   "prix": 65.0,
   "prix_txt": "65€",
@@ -2073,7 +2092,7 @@
  {
   "id": "dealabs:https://www.dealabs.com/bons-plans/team-chaussures-de-trail-asics-gel-sonoma-8-gtx-du-40-au-46-3467927",
   "source": "Dealabs",
-  "titre": "133° - [Membres] Chaussures de trail Asics Gel-Sonoma 8 GTX - Tailles 40 au 46",
+  "titre": "141° - [Membres] Chaussures de trail Asics Gel-Sonoma 8 GTX - Tailles 40 au 46",
   "url": "https://www.dealabs.com/bons-plans/team-chaussures-de-trail-asics-gel-sonoma-8-gtx-du-40-au-46-3467927",
   "prix": 71.99,
   "prix_txt": "71,99€",
@@ -2828,6 +2847,25 @@
   "ajoute": "2026-11-23T19:27:21+00:00",
   "rang": 3,
   "categorie": "High-tech",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/double-vinyle-2-lp-queen-bohemian-rhapsody-3470383",
+  "source": "Dealabs",
+  "titre": "Double Vinyle 2 LP - Queen : Bohemian Rhapsody",
+  "url": "https://www.dealabs.com/bons-plans/double-vinyle-2-lp-queen-bohemian-rhapsody-3470383",
+  "prix": 21.0,
+  "prix_txt": "21€",
+  "etat": "Neuf",
+  "vendeur": "Amazon",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "21€ - Amazon Double vinyle 2 LP Bohemian Rhapsody (The Original Soundtrack) de Queen qui rassemble les plus grands titres du groupe utilisés dans le biopic de 2",
+  "ajoute": "2026-11-26T15:44:46+00:00",
+  "rang": 5,
+  "categorie": "Autres",
   "score": 50
  },
  {
