@@ -1,5 +1,24 @@
 [
  {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/pull-manches-longues-100-cachemire-noir-via-16eur-sur-le-compte-fidelite-selection-de-magasins-3473214",
+  "source": "Dealabs",
+  "titre": "Pull Manches Longues - 100% cachemire, Noir (via 15.98€ sur la Carte de Fidélité, Sélection de magasins)",
+  "url": "https://www.dealabs.com/bons-plans/pull-manches-longues-100-cachemire-noir-via-16eur-sur-le-compte-fidelite-selection-de-magasins-3473214",
+  "prix": 23.97,
+  "prix_txt": "23,97€",
+  "etat": "Neuf",
+  "vendeur": "E.Leclerc",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "23,97€ - E.Leclerc • Maille unie • Col V • 100 % cachemire simple fil • Finitions bord-côtes • Détails de remaillage aux emmanchures et à l’encolure Composition",
+  "ajoute": "2026-11-27T23:51:48+00:00",
+  "rang": 0,
+  "categorie": "Vêtements",
+  "score": 50
+ },
+ {
   "id": "dealabs:https://www.dealabs.com/bons-plans/lego-speed-champions-77239-supercar-porsche-911-gt3-rs-3473137",
   "source": "Dealabs",
   "titre": "Jeu de construction Lego Speed Champions 77239 - Supercar Porsche 911 GT3 RS",
@@ -1289,6 +1308,25 @@
   "ajoute": "2026-11-25T00:28:20+00:00",
   "rang": 0,
   "categorie": "Vêtements",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/new-balance-u740-unisex-baskets-basses-streamsong-black-3473220",
+  "source": "Dealabs",
+  "titre": "New Balance - U740 UNISEX - Baskets basses - streamsong black",
+  "url": "https://www.dealabs.com/bons-plans/new-balance-u740-unisex-baskets-basses-streamsong-black-3473220",
+  "prix": 47.95,
+  "prix_txt": "47,95€",
+  "etat": "Neuf",
+  "vendeur": "Zalando",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "47,95€ - Zalando New Balance U740 UNISEX - Baskets basses - streamsong black",
+  "ajoute": "2026-11-27T23:51:48+00:00",
+  "rang": 1,
+  "categorie": "Chaussures",
   "score": 50
  },
  {
@@ -2733,6 +2771,25 @@
   "ajoute": "2026-11-26T16:45:00+00:00",
   "rang": 4,
   "categorie": "Maison",
+  "score": 50
+ },
+ {
+  "id": "dealabs:https://www.dealabs.com/bons-plans/coffret-blu-ray-ulysse-31-lintegrale-version-restauree-3473184",
+  "source": "Dealabs",
+  "titre": "Coffret Blu-Ray Ulysse 31 L'intégrale - Version restaurée",
+  "url": "https://www.dealabs.com/bons-plans/coffret-blu-ray-ulysse-31-lintegrale-version-restauree-3473184",
+  "prix": 44.26,
+  "prix_txt": "44,26€",
+  "etat": "Neuf",
+  "vendeur": "Anime-Store",
+  "note_vendeur": null,
+  "image": "",
+  "alerte": true,
+  "remise": 0,
+  "info": "44,26€ - Anime-Store L'intégrale Ulysse 31 à prix promo + livraison offerte Nombre de Blu-Ray : 4 Durée : 11h20 Restauration effectuée à partir des bobines orig",
+  "ajoute": "2026-11-27T23:51:48+00:00",
+  "rang": 5,
+  "categorie": "Autres",
   "score": 50
  },
  {
